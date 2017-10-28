@@ -6,8 +6,8 @@ bulletSpeed = 50;
 clipSize = 12; //max clip size
 reloadSpeed = 10; 
 bulletDamage = 10;
-bulletSpawn_x = 45;
-bulletSpawn_y = 27;
+bulletSpawn_x = 43.5;
+bulletSpawn_y = 26;
 
 
 //handle reloading
@@ -29,9 +29,9 @@ if (inputShoot) && (currentClip >= 1) && (currentReload = 0) { //checks for shoo
 		audio_play_sound(sfx_handgunShoot,1,false);
 		var length = point_distance(0,0,bulletSpawn_x,bulletSpawn_y) //points are half distance of sprite center to gun because of 1/2 scaled sprite
 		var gunDirection = point_direction(0,0,bulletSpawn_x,bulletSpawn_y);
-		var imageAngle = point_direction(x,y,mouse_x,mouse_y);
-		var xx = x + lengthdir_x(length,gunDirection+imageAngle);
-		var yy = y + lengthdir_y(length,gunDirection+imageAngle);
+		var imageAngle = point_direction(obj_player.x,obj_player.y,mouse_x,mouse_y);
+		var xx = obj_player.x + lengthdir_x(length,gunDirection+imageAngle);
+		var yy = obj_player.y + lengthdir_y(length,gunDirection+imageAngle);
 		var bullet = instance_create_layer(xx,yy,"Instances",obj_handgun_bullet);
 		--currentClip;
 		bullet.direction = imageAngle;

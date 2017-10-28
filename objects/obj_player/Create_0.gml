@@ -38,3 +38,5 @@ enum player_state {
 
 //start with knife out
 currentState = player_state.knife;
+
+instance_create_layer(1,1,"Instances",obj_fakeMouse);

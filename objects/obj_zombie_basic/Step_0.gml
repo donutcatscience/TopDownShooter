@@ -2,5 +2,9 @@
 
 if (currentHealth <= 0) instance_destroy(self);
 
-direction = point_direction(x,y,obj_player.x,obj_player.y);
-image_angle = point_direction(x,y,obj_player.x,obj_player.y);
+switch (currentState) {
+	case zombie_state.walk : scr_enemy_walk(); break;
+	case zombie_state.melee : scr_enemy_melee(); break;
+}
+
+++meleeTimer;

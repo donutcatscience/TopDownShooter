@@ -151,6 +151,14 @@
             }
         },
         {
+            "Key": "23d7b316-a55f-4bdd-b1ed-20e825205769",
+            "Value": {
+                "id": "bd1c55f8-de68-424c-95f6-086d4d290dd2",
+                "resourcePath": "scripts\\scr_enemy_melee\\scr_enemy_melee.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "27cd4938-e2df-4bf3-8f0e-3466b38898ed",
             "Value": {
                 "id": "c1b387f0-20ec-49ba-823c-3ae0f654084b",
@@ -199,10 +207,18 @@
             }
         },
         {
+            "Key": "3deb5279-36ed-4ea3-8f36-31cd0713be5f",
+            "Value": {
+                "id": "5e480a78-5836-4a14-8cbb-0d335011971d",
+                "resourcePath": "scripts\\scr_enemy_walk\\scr_enemy_walk.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "3e589c24-120c-43a3-a06d-9013030cff88",
             "Value": {
                 "id": "9699a72c-2c55-430a-b099-54e1deddf588",
-                "resourcePath": "sprites\\spr_zombie_attack\\spr_zombie_attack.yy",
+                "resourcePath": "sprites\\spr_zombie_melee\\spr_zombie_melee.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -359,6 +375,14 @@
             }
         },
         {
+            "Key": "81a4ff8f-f583-4440-b2f7-31e55bc52eee",
+            "Value": {
+                "id": "70183e06-a17b-4520-bb1a-894119684390",
+                "resourcePath": "scripts\\scr_enemyCollisionAndMove\\scr_enemyCollisionAndMove.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "85d62a34-cc05-4665-92fd-fc3d7fdd5fe9",
             "Value": {
                 "id": "2fcff57d-7c94-4755-9269-06e0add3826c",
@@ -435,6 +459,14 @@
             "Value": {
                 "id": "efa2180d-79fe-455e-9932-f511b7e9b3e1",
                 "resourcePath": "views\\a350c726-237c-4dbd-b8a3-e297a655d58d.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "a8b757ab-945a-4cd7-a30c-b4bf2f46874f",
+            "Value": {
+                "id": "dfb9427c-39bd-409c-aca2-fedc3a1090fc",
+                "resourcePath": "views\\a8b757ab-945a-4cd7-a30c-b4bf2f46874f.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -591,6 +623,14 @@
             }
         },
         {
+            "Key": "edd0445d-d3d5-4d53-b8c2-5835ee9f6f40",
+            "Value": {
+                "id": "d1e0aca9-f1cc-4e43-a525-d9fb073f9511",
+                "resourcePath": "objects\\obj_fakeMouse\\obj_fakeMouse.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "f37c239d-3945-49ae-a1bd-16f9394317c2",
             "Value": {
                 "id": "96bbf7c7-cf7e-443b-92de-6d7549bf9234",
@@ -651,10 +691,13 @@
         "ce2731cb-ec97-4848-bb74-d04fb7a581ae",
         "066f8292-5792-4048-9da2-4d8d5adce5f5",
         "ace9cd11-1743-486f-a971-a7ddc67e7688",
+        "81a4ff8f-f583-4440-b2f7-31e55bc52eee",
         "9f08aa76-5190-42d7-99ec-64d5f56fb4ea",
         "7c0351cf-b9a7-4247-b3be-d91f026f1f9e",
         "4bbe9771-1b02-4806-bda5-ad267008e199",
-        "f6f032f8-594f-40e4-b8dd-5366b6e94ec0"
+        "f6f032f8-594f-40e4-b8dd-5366b6e94ec0",
+        "3deb5279-36ed-4ea3-8f36-31cd0713be5f",
+        "23d7b316-a55f-4bdd-b1ed-20e825205769"
     ],
     "tutorial": ""
 }

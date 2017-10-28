@@ -2,21 +2,23 @@
 
 //set size
 sizeModifier = 1.5;
+currentTorso = spr_zombie_walk;
 
 //zombie stats
 maxHealth = 100;
 currentHealth = 30;
+meleeTimer = 30;
+meleeDamage = 10;
 
 walkFrame = 0;
-
-direction = point_direction(x,y,obj_player.x,obj_player.y);
+attackFrame = 0;
 speed = 1;
 
 currentState = 0;
 
 enum zombie_state {
 	walk,
-	attack,
+	melee,
 };
 
 currentState = zombie_state.walk;

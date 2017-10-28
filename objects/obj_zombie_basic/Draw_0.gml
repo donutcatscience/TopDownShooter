@@ -6,7 +6,17 @@ if (currentHealth < maxHealth) {
 }
 
 //draw zombie
+if zombie_state.walk {
+	if (walkFrame > 16) walkFrame = 0;
+	draw_sprite_ext(currentTorso,walkFrame,x,y,sizeModifier,sizeModifier,image_angle,c_white,1);
+	walkFrame++;
+}
 
-walkFrame++;
-if (walkFrame > 16) walkFrame = 0;
-draw_sprite_ext(spr_zombie_walk,walkFrame,x,y,sizeModifier,sizeModifier,image_angle,c_white,1);
+if zombie_state.melee {
+	if (attackFrame > 16) {
+		attackFrame = 0;
+	}
+	
+	draw_sprite_ext(currentTorso,attackFrame,x,y,sizeModifier,sizeModifier,image_angle,c_white,1);
+	attackFrame++;
+}

@@ -1,28 +1,28 @@
 {
-    "id": "202caee4-e540-479e-9b18-e249472140f0",
+    "id": "edd0445d-d3d5-4d53-b8c2-5835ee9f6f40",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_gameController",
+    "name": "obj_fakeMouse",
     "eventList": [
         {
-            "id": "7e9d3029-02f7-4865-a5a0-455e594687e9",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 3,
-            "m_owner": "202caee4-e540-479e-9b18-e249472140f0"
-        },
-        {
-            "id": "3cd0e2db-1e46-4008-900e-0912e2008705",
+            "id": "329a9b03-107c-4622-bcc3-dc0dac9a1cbd",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "202caee4-e540-479e-9b18-e249472140f0"
+            "m_owner": "edd0445d-d3d5-4d53-b8c2-5835ee9f6f40"
+        },
+        {
+            "id": "c619d89d-5a79-4022-b6b1-083164515b84",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 8,
+            "m_owner": "edd0445d-d3d5-4d53-b8c2-5835ee9f6f40"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -41,6 +41,6 @@
     "physicsShapePoints": null,
     "physicsStartAwake": true,
     "solid": false,
-    "spriteId": "00000000-0000-0000-0000-000000000000",
+    "spriteId": "051d6a2d-bfa7-40e4-ad0c-efb3343d49c6",
     "visible": true
 }

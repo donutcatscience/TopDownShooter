@@ -12,6 +12,8 @@ playerSpeed = 5;
 currentPlayerSpeed = 0;
 moveX = 0;
 moveY = 0;
+currentHealth = 30;
+maxHealth = 100;
 
 //action switch states
 fireWeapon = 0;

@@ -14,11 +14,10 @@ walkFrame = 0;
 attackFrame = 0;
 speed = 1;
 
-currentState = 0;
+currentState = zombie_state.walk;
 
 enum zombie_state {
 	walk,
 	melee,
+	wonder
 };
-
-currentState = zombie_state.walk;

@@ -1,5 +1,10 @@
 /// @description Controls Sprite Animation
 
+//draw player healthbar
+if (currentHealth < maxHealth) {
+	draw_healthbar(x-16,y-60,x+16,y-58, (currentHealth/maxHealth)*100,c_black,c_red,c_green,0,true,true);
+}
+
 //handle reloading weapon
 if currentReload >= 1 {
 		image_speed = 1;

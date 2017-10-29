@@ -1,5 +1,6 @@
 /// @description draw enemy healthbars
 
+draw_rectangle(box_left,box_top,box_right,box_bottom,true); //TEMP FOR COLLISIONS
 //draw zombie healthbar
 if (currentHealth < maxHealth) {
 	draw_healthbar(x-16,y-40,x+16,y-38, (currentHealth/maxHealth)*100,c_black,c_red,c_green,0,true,true);

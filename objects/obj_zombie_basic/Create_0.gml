@@ -12,7 +12,8 @@ meleeDamage = 10;
 
 walkFrame = 0;
 attackFrame = 0;
-speed = 1;
+enemySpeed = 1;
+changeDirection = 30;
 
 box_left = 0;  //remove these after game is finished
 box_top = 0;

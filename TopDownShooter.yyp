@@ -335,6 +335,14 @@
             }
         },
         {
+            "Key": "726f8603-4eeb-488f-a582-b0882e57bf4f",
+            "Value": {
+                "id": "11d3f03b-aded-453c-8442-e30a0a56633c",
+                "resourcePath": "sprites\\spr_zombie_collision\\spr_zombie_collision.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "72d0f412-b4ba-4e69-8fca-5b0123b97535",
             "Value": {
                 "id": "e0dad6f3-f1cb-4e17-adb6-cf451b624793",

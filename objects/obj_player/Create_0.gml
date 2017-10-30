@@ -30,6 +30,11 @@ walkFrame = 0; //animation starting points
 torsoFrame = 0;
 currentTempTorso = 0;
 
+box_left = 0;  //remove these after game is finished
+box_top = 0;
+box_right = 0;
+box_bottom = 0;
+
 //weapon control states
 enum player_state {
 	knife,

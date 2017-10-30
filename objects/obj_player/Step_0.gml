@@ -1,5 +1,11 @@
 ///// @description handel inputs
 
+box_left = (x - sprite_width);  //turn to var after game is finished
+box_right = (x + sprite_width);
+	
+box_top = (y - sprite_height);
+box_bottom = (y + sprite_height);
+
 //kills player if health below 0
 if (currentHealth <= 0) instance_destroy(self);
 

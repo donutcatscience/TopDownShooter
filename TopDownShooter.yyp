@@ -111,6 +111,14 @@
             }
         },
         {
+            "Key": "16c7c0d7-eb9c-41bc-a587-30069b79875a",
+            "Value": {
+                "id": "bf425fa0-8526-4c92-851b-206925183c4e",
+                "resourcePath": "sprites\\spr_wallTiles\\spr_wallTiles.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "1ce8c570-7d36-4d4e-98e1-80590578bc94",
             "Value": {
                 "id": "f5f291dd-2999-4291-bf32-b4d616d7e339",
@@ -172,14 +180,6 @@
                 "id": "395d3b5c-2554-4a33-9e44-d6277a5d2489",
                 "resourcePath": "views\\28dfb9ee-5a61-46ca-bdfa-d605202ecc12.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "29688d8e-5b92-4a6d-97b9-f2d41eeeb7a3",
-            "Value": {
-                "id": "296a8dce-7440-40f3-944f-8af10d382f9e",
-                "resourcePath": "rooms\\rm_house01\\rm_house01.yy",
-                "resourceType": "GMRoom"
             }
         },
         {
@@ -252,6 +252,14 @@
                 "id": "60d35bb4-9f81-4b8d-bcee-73d4a5ecab9a",
                 "resourcePath": "views\\500b354e-15f6-48b0-9701-2759d217d137.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "54576c80-daf6-4e67-8c4e-226c96eea082",
+            "Value": {
+                "id": "fcc358dd-70a2-4ceb-a6fe-d69c12259216",
+                "resourcePath": "objects\\obj_testZombie\\obj_testZombie.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -415,6 +423,14 @@
             }
         },
         {
+            "Key": "8cd07f29-052e-4aae-8224-3c0e6647fb2e",
+            "Value": {
+                "id": "6dc9fe40-ea49-433a-875f-ecb0c088a5d6",
+                "resourcePath": "objects\\obj_grid\\obj_grid.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "8d9122a6-cbac-472c-b4da-2c65a739c811",
             "Value": {
                 "id": "1fb299d7-eccf-47a3-a04c-e704927a05d6",
@@ -436,6 +452,14 @@
                 "id": "a090a022-b198-4eb7-b30a-9630652a2413",
                 "resourcePath": "views\\97f93553-99d9-463e-aa26-567c52152f25.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "9dbc6805-9b3e-48da-b019-47472a222252",
+            "Value": {
+                "id": "a5eee5d5-65b9-4731-9017-433912197b8f",
+                "resourcePath": "rooms\\rm_main\\rm_main.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -535,6 +559,14 @@
             }
         },
         {
+            "Key": "bf496b55-06bf-4b46-b59a-4f47c80c299e",
+            "Value": {
+                "id": "eeaa2354-5136-48b4-b618-e60038ae1146",
+                "resourcePath": "notes\\enemy_collision Simple AI Code.yy",
+                "resourceType": "GMNotes"
+            }
+        },
+        {
             "Key": "c2da4f58-3b25-42ff-b588-f45ec7adca28",
             "Value": {
                 "id": "ca3f95fa-a703-4436-b646-37751430f6ef",
@@ -631,6 +663,14 @@
             }
         },
         {
+            "Key": "e05c8475-9acf-47b1-8c4a-8789db1a69f7",
+            "Value": {
+                "id": "9c5a169c-9af3-4bef-9a7c-57e48bc6f146",
+                "resourcePath": "tilesets\\tile_walls\\tile_walls.yy",
+                "resourceType": "GMTileSet"
+            }
+        },
+        {
             "Key": "e8126057-bc02-4860-9905-3706ea10bf6a",
             "Value": {
                 "id": "f1119151-37c8-4e93-99ad-7cfa1dda2dfb",
@@ -715,6 +755,14 @@
             "Value": {
                 "id": "15f53249-382d-4400-9ed8-cb2b9e2e1533",
                 "resourcePath": "sprites\\spr_dirt\\spr_dirt.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "fe07c01f-2381-440f-b72b-449a9e2799bf",
+            "Value": {
+                "id": "95f4c0d2-513f-4445-a6c7-5c167f625cd1",
+                "resourcePath": "sprites\\bg_tileFloor\\bg_tileFloor.yy",
                 "resourceType": "GMSprite"
             }
         }

@@ -1,7 +1,7 @@
 /// @description draw enemy healthbars
 
-if (instance_exists(obj_player)){
-	image_angle = point_direction(x,y,obj_player.x,obj_player.y);
+if (instance_exists(obj_player)){ //points zombies to current movement direction
+	image_angle = direction;
 }
 
 draw_rectangle(box_left,box_top,box_right,box_bottom,true); //TEMP FOR COLLISIONS

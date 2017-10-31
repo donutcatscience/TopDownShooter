@@ -40,4 +40,6 @@ if (inputShoot) && (currentClip >= 1) && (currentReload = 0) { //checks for shoo
 		playerLastTorso = spr_player_handgun_walk;
 	}
 }
-
+if (inputShoot) && (currentClip <= 0) && (currentReload = 0) { //empty clip sound
+	audio_play_sound(snd_emptyClip,3,false);
+}

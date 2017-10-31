@@ -44,6 +44,14 @@ if (moveY != 0){
 	}
 }
 
+//foot steps when player moves
+if (footSteps >= 10) && ((moveX != 0) || (moveY != 0)) {
+	var footSound = choose(snd_walk01,snd_walk02,snd_walk03,snd_walk04);
+	audio_play_sound(footSound, 3,false);
+	footSteps = 0;
+}
+else ++footSteps;
+
 //update movement values
 x += moveX;
 y += moveY;

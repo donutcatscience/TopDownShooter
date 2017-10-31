@@ -2,7 +2,7 @@
     "id": "38c9a173-ac30-4d70-8f9d-a996a710f519",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_bloodSplatter",
+    "name": "obj_zombieBloodSplatter",
     "eventList": [
         {
             "id": "721b4771-848b-4f81-b4a2-6fa00a4c2e07",
@@ -22,6 +22,16 @@
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 2,
+            "m_owner": "38c9a173-ac30-4d70-8f9d-a996a710f519"
+        },
+        {
+            "id": "13f476f0-053a-4f8e-ae81-55d9208cde4d",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 8,
             "m_owner": "38c9a173-ac30-4d70-8f9d-a996a710f519"
         }
     ],

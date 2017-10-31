@@ -7,4 +7,4 @@ instance_destroy(other)
 
 var bloodX =(x + (random_range(5,15)));
 var bloodY =(y + (random_range(5,15)));
-instance_create_layer(bloodX,bloodY,"Blood",obj_bloodSplatter);
+instance_create_layer(bloodX,bloodY,"Blood",obj_zombieBloodSplatter);

@@ -14,6 +14,7 @@ walkFrame = 0;
 attackFrame = 0;
 enemySpeed = 1;
 flash = 0;
+footSteps = 10;
 
 box_left = 0;  //remove these after game is finished
 box_top = 0;

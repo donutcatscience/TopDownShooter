@@ -30,6 +30,7 @@ flash = 0;
 walkFrame = 0; //animation starting points
 torsoFrame = 0;
 currentTempTorso = 0;
+footSteps = 10;
 
 box_left = 0;  //remove these after game is finished
 box_top = 0;

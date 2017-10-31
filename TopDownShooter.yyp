@@ -183,6 +183,14 @@
             }
         },
         {
+            "Key": "26bf9ce0-1c29-44a3-ae15-7a719c50e86d",
+            "Value": {
+                "id": "0a1019e5-a52e-4f99-82bf-a28acf530d55",
+                "resourcePath": "views\\26bf9ce0-1c29-44a3-ae15-7a719c50e86d.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "27cd4938-e2df-4bf3-8f0e-3466b38898ed",
             "Value": {
                 "id": "c1b387f0-20ec-49ba-823c-3ae0f654084b",
@@ -239,6 +247,22 @@
             }
         },
         {
+            "Key": "39a3a1e8-b709-4d68-b90e-71373522ed58",
+            "Value": {
+                "id": "8f39998d-944b-4b3f-b62e-74081dbbb14d",
+                "resourcePath": "sprites\\spr_brokenWood02\\spr_brokenWood02.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "3a5d1fa3-4e74-4911-8e0c-0e86f84b557c",
+            "Value": {
+                "id": "61df3641-b97c-4b43-98ca-e911cba94615",
+                "resourcePath": "sprites\\spr_brokenWood01\\spr_brokenWood01.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "3dbd024d-0549-4244-b68c-208d86c889de",
             "Value": {
                 "id": "2287dfd0-0350-4e21-a8b1-b51bd7ef5898",
@@ -282,7 +306,7 @@
             "Key": "483df767-56dd-4fe2-842f-022098470d16",
             "Value": {
                 "id": "f9ae2d11-415c-45e5-ae66-fb6d2725e2ee",
-                "resourcePath": "objects\\obj_playerBloodSplatter\\obj_playerBloodSplatter.yy",
+                "resourcePath": "objects\\obj_brokenWoodSplatter\\obj_brokenWoodSplatter.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -355,6 +379,14 @@
             "Value": {
                 "id": "94e7f396-c61a-4d15-9835-9ab97028adcd",
                 "resourcePath": "sprites\\spr_blood01\\spr_blood01.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "5f33c5ce-e8f5-4e21-8c90-477fa3aff2b5",
+            "Value": {
+                "id": "ca053baa-f543-4910-a0c0-0adf9cdad2df",
+                "resourcePath": "sprites\\spr_brokenWood03\\spr_brokenWood03.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -567,6 +599,14 @@
             }
         },
         {
+            "Key": "990b0c3b-d645-4c6f-bb8e-e0a91f2bde39",
+            "Value": {
+                "id": "ea4e79b9-5f58-41fb-a3d3-358f7f5a2716",
+                "resourcePath": "objects\\obj_playerBloodSplatter\\obj_playerBloodSplatter.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "9dbc6805-9b3e-48da-b019-47472a222252",
             "Value": {
                 "id": "a5eee5d5-65b9-4731-9017-433912197b8f",
@@ -660,6 +700,14 @@
                 "id": "a437b622-f3db-42c5-aa81-87f5599f9492",
                 "resourcePath": "scripts\\scr_movementAnimation\\scr_movementAnimation.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "ad305894-dfee-49a0-b7c8-1dbf30ce55b5",
+            "Value": {
+                "id": "f253daa0-0859-45bc-8eeb-6b93cf24c4cb",
+                "resourcePath": "sprites\\spr_woodBlood01\\spr_woodBlood01.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -828,6 +876,14 @@
                 "id": "9c5a169c-9af3-4bef-9a7c-57e48bc6f146",
                 "resourcePath": "tilesets\\tile_walls\\tile_walls.yy",
                 "resourceType": "GMTileSet"
+            }
+        },
+        {
+            "Key": "e3fe9852-59b9-427c-8ec0-815a3daab3a7",
+            "Value": {
+                "id": "010b29ae-61d2-4d0d-a660-aa23c1c14230",
+                "resourcePath": "views\\e3fe9852-59b9-427c-8ec0-815a3daab3a7.yy",
+                "resourceType": "GMFolder"
             }
         },
         {

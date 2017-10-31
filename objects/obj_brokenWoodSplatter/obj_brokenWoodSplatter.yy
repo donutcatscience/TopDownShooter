@@ -1,38 +1,38 @@
 {
-    "id": "990b0c3b-d645-4c6f-bb8e-e0a91f2bde39",
+    "id": "483df767-56dd-4fe2-842f-022098470d16",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_playerBloodSplatter",
+    "name": "obj_brokenWoodSplatter",
     "eventList": [
         {
-            "id": "4e5fed90-6e53-45c6-8e26-de1da8cdca80",
+            "id": "940d6a83-1182-45c6-a332-626c119ce554",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "990b0c3b-d645-4c6f-bb8e-e0a91f2bde39"
+            "m_owner": "483df767-56dd-4fe2-842f-022098470d16"
         },
         {
-            "id": "df251b30-94df-4c77-a279-69f913d5661f",
+            "id": "6f134f4f-4852-485e-bf7a-dd1e94bc39ab",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 2,
-            "m_owner": "990b0c3b-d645-4c6f-bb8e-e0a91f2bde39"
+            "m_owner": "483df767-56dd-4fe2-842f-022098470d16"
         },
         {
-            "id": "d9eec290-837d-4e22-9557-57588b0e06b3",
+            "id": "06ccfe80-ed13-41c2-b781-32f4a633c776",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 8,
-            "m_owner": "990b0c3b-d645-4c6f-bb8e-e0a91f2bde39"
+            "m_owner": "483df767-56dd-4fe2-842f-022098470d16"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",

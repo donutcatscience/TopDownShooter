@@ -1,10 +1,7 @@
 //get player imputs
 scr_getInputs();
 
-//set handgun variables ALL OF THESE NEED TO BE MOVED OUT INTO A SEPERATE SCRIPT
-
-meleeDamage = 30;
-knockBack = 5;
+meleeDamage = 25;
 bulletSpawn_x = 50;
 bulletSpawn_y = 35;
 

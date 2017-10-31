@@ -14,6 +14,7 @@ moveX = 0;
 moveY = 0;
 currentHealth = 100;
 maxHealth = 100;
+playerKeys = 0;
 
 //action switch states
 fireWeapon = 0;

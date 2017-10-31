@@ -1,15 +1,15 @@
 /// @description Spawns zombies
 
 //initialize variables
-box_left = (x - sprite_width); 
-box_right = (x + sprite_width);
+box_left = (x - (sprite_width div 2)); 
+box_right = (x + (sprite_width div 2));
 	
-box_top = (y - sprite_height);
-box_bottom = (y + sprite_height);
+box_top = (y - (sprite_height div 2));
+box_bottom = (y + (sprite_height div 2));
 
 //zombie spawner stats
 maxHealth = 100;
-currentHealth = 30;
+currentHealth = 100;
 flash = 0;
 
 //spawn rate

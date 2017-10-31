@@ -263,6 +263,14 @@
             }
         },
         {
+            "Key": "3d3a3503-0796-4c85-92ed-55e4dcea0cf2",
+            "Value": {
+                "id": "983ce84e-e8c8-48a4-9e1a-54b12e095c1d",
+                "resourcePath": "objects\\obj_keys\\obj_keys.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "3dbd024d-0549-4244-b68c-208d86c889de",
             "Value": {
                 "id": "2287dfd0-0350-4e21-a8b1-b51bd7ef5898",
@@ -503,6 +511,14 @@
             }
         },
         {
+            "Key": "7a89c747-509d-468d-92ed-cb3281922e05",
+            "Value": {
+                "id": "aa136c8e-8428-46cf-a256-2c6e146400a6",
+                "resourcePath": "sprites\\spr_player_handgun_melee\\spr_player_handgun_melee.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "7ae14bf6-9195-477b-978d-769104d92a0d",
             "Value": {
                 "id": "d3446600-df9c-4201-b6cb-4a7d51827557",
@@ -628,6 +644,14 @@
                 "id": "ea4e79b9-5f58-41fb-a3d3-358f7f5a2716",
                 "resourcePath": "objects\\obj_playerBloodSplatter\\obj_playerBloodSplatter.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "995e6a05-27d8-4f89-9411-0df8d7c6e4b8",
+            "Value": {
+                "id": "b676945e-6f2e-4070-811a-2c980c7f4058",
+                "resourcePath": "sprites\\spr_keys\\spr_keys.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

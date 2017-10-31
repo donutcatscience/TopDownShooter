@@ -4,7 +4,7 @@ draw_rectangle(box_left,box_top,box_right,box_bottom,true); //TEMP FOR COLLISION
 
 //draw player healthbar
 if (currentHealth < maxHealth) {
-	draw_healthbar(x-16,y-60,x+16,y-58, (currentHealth/maxHealth)*100,c_black,c_red,c_green,0,true,true);
+	draw_healthbar(x-16,y-60,x+16,y-56, (currentHealth/maxHealth)*100,c_black,c_red,c_green,0,true,true);
 }
 
 //handle reloading weapon

@@ -30,3 +30,36 @@ if (currentState = zombie_state.wonder) {
 	draw_sprite_ext(currentTorso,walkFrame,x,y,sizeModifier,sizeModifier,image_angle,c_white,1);
 	walkFrame++;
 }
+
+//hit flash if delt damage
+if (flash > 0) {
+	flash -= 0.5
+	gpu_set_blendmode(bm_add);
+	shader_set(shd_flash);
+	shdAlpha = shader_get_uniform(shd_flash, "alpha");
+	shader_set_uniform_f(shdAlpha, flash);
+	
+	//draw zombie
+	if (currentState = zombie_state.walk) {
+		if (walkFrame > 16) walkFrame = 0;
+		draw_sprite_ext(currentTorso,walkFrame,x,y,sizeModifier,sizeModifier,image_angle,c_white,1);
+		walkFrame++;
+	}
+
+	if (currentState = zombie_state.melee) {
+		if (attackFrame > 16) {
+			currentTorso = spr_zombie_still;
+		}
+		draw_sprite_ext(currentTorso,attackFrame,x,y,sizeModifier,sizeModifier,image_angle,c_white,1)
+		attackFrame++;
+	}
+
+	if (currentState = zombie_state.wonder) {
+		if (walkFrame > 16) walkFrame = 0;
+		draw_sprite_ext(currentTorso,walkFrame,x,y,sizeModifier,sizeModifier,image_angle,c_white,1);
+		walkFrame++;
+	}
+		
+	shader_reset();
+	gpu_set_blendmode(bm_normal);
+}

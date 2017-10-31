@@ -12,7 +12,7 @@ playerSpeed = 5;
 currentPlayerSpeed = 0;
 moveX = 0;
 moveY = 0;
-currentHealth = 30;
+currentHealth = 100;
 maxHealth = 100;
 
 //action switch states
@@ -25,6 +25,7 @@ bulletSpawn_y = 0;
 playerCurrentFeet = spr_player_feet_walk;
 playerCurrentTorso = spr_player_knife_walk;
 playerLastTorso = spr_player_knife_walk;
+flash = 0;
 
 walkFrame = 0; //animation starting points
 torsoFrame = 0;

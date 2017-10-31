@@ -5,6 +5,7 @@ if (!instance_exists(obj_player)){
 }
 else if (instance_exists(obj_player)) {
 	if (collision_rectangle(box_left,box_top,box_right,box_bottom,obj_player,false,true)) {
+		path_end();
 		speed = 0;
 		currentState = zombie_state.melee;
 	}

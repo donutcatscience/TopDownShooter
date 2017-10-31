@@ -183,6 +183,14 @@
             }
         },
         {
+            "Key": "2d22540a-1fbd-408d-abde-4b99c6d46717",
+            "Value": {
+                "id": "9e79ca90-6741-425b-9886-2da16b7e699e",
+                "resourcePath": "shaders\\shd_flash\\shd_flash.yy",
+                "resourceType": "GMShader"
+            }
+        },
+        {
             "Key": "302fa5bf-ff69-4fbc-8adb-b75d12005129",
             "Value": {
                 "id": "636be338-afe7-4b75-8763-195743c2b557",
@@ -196,6 +204,14 @@
                 "id": "ac468ba3-8376-4b21-9998-36db1da9831c",
                 "resourcePath": "sprites\\spr_player_shotgun_walk\\spr_player_shotgun_walk.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "38c9a173-ac30-4d70-8f9d-a996a710f519",
+            "Value": {
+                "id": "4fc30163-f33d-411c-9896-1103a302d88b",
+                "resourcePath": "objects\\obj_bloodSplatter\\obj_bloodSplatter.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -220,6 +236,14 @@
                 "id": "8c9ccc29-d1ef-4cb6-a01c-c087c2ce3270",
                 "resourcePath": "objects\\obj_handgun_bullet\\obj_handgun_bullet.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "4613da56-047f-4d7b-a2a9-63a62e1cedda",
+            "Value": {
+                "id": "98ffcf92-6231-4aaf-bfc0-f67c75969166",
+                "resourcePath": "sprites\\spr_blood03\\spr_blood03.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -279,6 +303,14 @@
             }
         },
         {
+            "Key": "5e50775a-a006-4c43-96a1-aee12e81c6ed",
+            "Value": {
+                "id": "94e7f396-c61a-4d15-9835-9ab97028adcd",
+                "resourcePath": "sprites\\spr_blood01\\spr_blood01.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "5f87f5b1-33a6-4629-ae4e-46472652caaa",
             "Value": {
                 "id": "61418e68-fd85-4916-967d-e8fad66302aa",
@@ -292,6 +324,14 @@
                 "id": "eac5c9e7-67ee-4214-9da2-ec486d929a8a",
                 "resourcePath": "views\\603b0971-6f40-446e-83c6-5c254cf48f9d.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "652440cb-6684-4d41-8709-97781751c250",
+            "Value": {
+                "id": "b2b79b4f-795f-4fa0-9767-d156d0448532",
+                "resourcePath": "sprites\\spr_blood04\\spr_blood04.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -388,6 +428,14 @@
                 "id": "34b3dca5-62ec-4813-925a-270891112123",
                 "resourcePath": "scripts\\scr_handgun\\scr_handgun.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "80ec54cb-60e1-4e89-a821-f9937f7908de",
+            "Value": {
+                "id": "34ff2dae-a861-497b-8298-5727761dd4f4",
+                "resourcePath": "sprites\\spr_blood02\\spr_blood02.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

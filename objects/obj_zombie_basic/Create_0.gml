@@ -6,7 +6,7 @@ currentTorso = spr_zombie_walk;
 
 //zombie stats
 maxHealth = 100;
-currentHealth = 30;
+currentHealth = 100;
 meleeTimer = 30;
 meleeDamage = 10;
 

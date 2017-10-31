@@ -495,6 +495,14 @@
             }
         },
         {
+            "Key": "796ede49-680b-41fd-ad68-1a4f896f892c",
+            "Value": {
+                "id": "86820feb-f863-41d5-a85d-1e45158284ff",
+                "resourcePath": "sprites\\spr_player_knife_melee\\spr_player_knife_melee.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "7ae14bf6-9195-477b-978d-769104d92a0d",
             "Value": {
                 "id": "d3446600-df9c-4201-b6cb-4a7d51827557",
@@ -524,6 +532,14 @@
                 "id": "34b3dca5-62ec-4813-925a-270891112123",
                 "resourcePath": "scripts\\scr_handgun\\scr_handgun.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "80ac8f17-b00f-4023-8aca-11025e720cce",
+            "Value": {
+                "id": "a34853e0-93e9-4f6a-a4f5-563acbb5e3a2",
+                "resourcePath": "objects\\obj_meleeHit\\obj_meleeHit.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -892,6 +908,14 @@
                 "id": "9c5a169c-9af3-4bef-9a7c-57e48bc6f146",
                 "resourcePath": "tilesets\\tile_walls\\tile_walls.yy",
                 "resourceType": "GMTileSet"
+            }
+        },
+        {
+            "Key": "e28ff222-9fad-4d11-a5fd-99c6256d47fa",
+            "Value": {
+                "id": "181e9f95-f239-4412-adc8-ab22123f9f04",
+                "resourcePath": "sprites\\spr_meleeHit\\spr_meleeHit.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

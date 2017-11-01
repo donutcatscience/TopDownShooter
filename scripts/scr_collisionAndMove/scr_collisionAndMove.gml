@@ -19,7 +19,7 @@ if (moveX != 0){
 	if (place_meeting((x + moveX), y, obj_playerWall)){
 		repeat (abs(moveX)){ 
 			if (!place_meeting((x + sign(moveX)), y, obj_playerWall)){
-				x += sign(moveX); //reduces movement down to one pixel
+				x += sign(moveX); //reduces movement down to one pixel and then adds sum to move
 			}
 			else {
 				break;
@@ -34,7 +34,7 @@ if (moveY != 0){
 	if (place_meeting(x, (y + moveY) , obj_playerWall)){
 		repeat (abs(moveY)){
 			if (!place_meeting(x, (y + sign(moveY)), obj_playerWall)){
-				y += sign(moveY);
+				y += sign(moveY); //reduces movement down to one pixel and then adds sum to move
 			}
 			else {
 				break;
@@ -50,7 +50,7 @@ if (footSteps >= 10) && ((moveX != 0) || (moveY != 0)) {
 	audio_play_sound(footSound, 3,false);
 	footSteps = 0;
 }
-else ++footSteps;
+else ++footSteps; //this keeps the foot sounds in time witht the animation
 
 //update movement values
 x += moveX;

@@ -3,9 +3,10 @@
 //take damage
 currentHealth = currentHealth - obj_player.bulletDamage;
 flash = 1;
+audio_play_sound(snd_weapon_hitWood,3,false);
 instance_destroy(other)
 
-//make zombies when hit
+//make zombies when hit, and ensure placement in unoccupied space
 if (instance_exists(obj_player)) {
 	do {
 		var randomSpawnX = (x+ (choose(-1,1) * (25 + (random_range(10,15)))));

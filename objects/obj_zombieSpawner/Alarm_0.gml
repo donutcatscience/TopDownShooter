@@ -1,7 +1,7 @@
 /// @description Initial zombie spawner
 
 if (instance_exists(obj_player)) {
-	do {
+	do { //makes sure zombies aren't spawning in occupied space
 		var randomSpawnX = (x+ (choose(-1,1) * (25 + (random_range(10,15)))));
 		var randomSpawnY = (y + (choose(-1,1) * (25+ (random_range(10,15)))));
 	}

@@ -7,7 +7,10 @@ box_top = (y - sprite_height);
 box_bottom = (y + sprite_height);
 
 //kills player if health below 0
-if (currentHealth <= 0) instance_destroy(self);
+if (currentHealth <= 0) {
+	audio_play_sound(snd_player_death,3,false);
+	instance_destroy(self);
+}
 
 switch (currentState) {
 	case player_state.knife : scr_knife(); break;

@@ -19,7 +19,7 @@ playerKeys = 0;
 //action switch states
 fireWeapon = 0;
 currentReload = 0;
-currentClip = 0;
+currentClip = 12;
 bulletSpawn_x = 0;
 bulletSpawn_y = 0;
 

@@ -3,8 +3,9 @@
 if (instance_exists(obj_player)) {
 //check for hit
 	if (collision_rectangle(box_left,box_top,box_right,box_bottom,obj_meleeHit,false,true)) {
+			audio_play_sound(snd_weapon_hitWood,3,false);
 			flash = 1;
-			//make zombies when hit
+			//make zombies when hit, and ensures unoccipied space
 			do {
 				var randomSpawnX = (x+ (choose(-1,1) * (25 + (random_range(10,15)))));
 				var randomSpawnY = (y + (choose(-1,1) * (25+ (random_range(10,15)))));

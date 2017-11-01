@@ -7,7 +7,7 @@ inputUp = max(keyboard_check(ord("W")), 0);
 inputDown = max(keyboard_check(ord("S")), 0);
 
 //weapon control
-inputReload = max(keyboard_check(ord("R")),0);
+inputReload = max(keyboard_check_pressed(ord("R")),0);
 inputKnife = max(keyboard_check(ord("1")),0);
 inputHandgun = max(keyboard_check(ord("2")),0);
 inputShotgun = max(keyboard_check(ord("3")),0);
@@ -17,7 +17,7 @@ inputShoot = mouse_check_button_pressed(mb_left);
 inputMelee = mouse_check_button_pressed(mb_right);
 
 
-//checks for weapon swapping
+//checks for weapon swapping and state changing
 if (inputKnife = 1) {
 	playerCurrentTorso = spr_player_knife_walk;
 	if (currentState != player_state.knife) audio_play_sound(snd_changeWeapon,3,false);

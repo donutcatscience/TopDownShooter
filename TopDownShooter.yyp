@@ -143,6 +143,14 @@
             }
         },
         {
+            "Key": "1e0eec15-58f3-4fc5-b78d-6a786a49f646",
+            "Value": {
+                "id": "cc372d6b-94be-4140-92c7-cc9c4a39dda7",
+                "resourcePath": "sounds\\snd_knife_miss\\snd_knife_miss.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "1e5c22bf-1cca-4692-93a8-8a95de3dcf0d",
             "Value": {
                 "id": "1cc07ae3-f851-4b7d-aa15-e180bb332261",
@@ -287,6 +295,14 @@
             }
         },
         {
+            "Key": "4141a0e0-553a-48ca-8193-6853e4a7a4a4",
+            "Value": {
+                "id": "dc457c1a-3e40-4995-9d1e-2bd71f3dfa10",
+                "resourcePath": "sounds\\snd_knife_hit\\snd_knife_hit.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "434da201-47cd-4388-94bf-3f112fe17ca8",
             "Value": {
                 "id": "8c9ccc29-d1ef-4cb6-a01c-c087c2ce3270",
@@ -316,6 +332,14 @@
                 "id": "f9ae2d11-415c-45e5-ae66-fb6d2725e2ee",
                 "resourcePath": "objects\\obj_brokenWoodSplatter\\obj_brokenWoodSplatter.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "49edd500-8421-4536-8ad8-7aeb54592b3c",
+            "Value": {
+                "id": "bb6722b3-41a5-495e-8ae1-7d2b494c071a",
+                "resourcePath": "sounds\\snd_weapon_hitWood\\snd_weapon_hitWood.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -463,11 +487,27 @@
             }
         },
         {
+            "Key": "6bd0a814-9a43-4269-b906-508b1971c961",
+            "Value": {
+                "id": "b654c1f3-aacf-4367-a76a-3763949b62be",
+                "resourcePath": "views\\6bd0a814-9a43-4269-b906-508b1971c961.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "6c9df253-d0c6-4eed-ae82-3c238a4e26d3",
             "Value": {
                 "id": "23782eb2-c6b9-4a1e-809e-08bfa8b85d8a",
                 "resourcePath": "sprites\\spr_spawner\\spr_spawner.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "6e6f0174-f27d-473a-b464-484f5b20c313",
+            "Value": {
+                "id": "e63821d5-8edf-4fd0-aacd-72284c629dd6",
+                "resourcePath": "sounds\\snd_handgun_reload\\snd_handgun_reload.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -575,6 +615,14 @@
             }
         },
         {
+            "Key": "83e09bad-d16c-4fab-a588-be76f5829227",
+            "Value": {
+                "id": "d2a29d62-ffce-479e-8175-f59b36fec4e4",
+                "resourcePath": "sounds\\snd_player_hit02\\snd_player_hit02.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "85d62a34-cc05-4665-92fd-fc3d7fdd5fe9",
             "Value": {
                 "id": "2fcff57d-7c94-4755-9269-06e0add3826c",
@@ -628,6 +676,14 @@
                 "id": "88618de5-f483-4abb-829b-7c019a3cf0e7",
                 "resourcePath": "sprites\\spr_playerWall\\spr_playerWall.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "9606590e-72d2-4b52-b4ee-590d545660bb",
+            "Value": {
+                "id": "7713c0b4-c383-4a81-9e44-dd9cc7ea93f4",
+                "resourcePath": "sounds\\snd_zombie_shot\\snd_zombie_shot.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -743,6 +799,14 @@
             }
         },
         {
+            "Key": "ac9fbfb8-cc9e-4129-ac92-2f1b1f02717a",
+            "Value": {
+                "id": "1f8587d6-3322-4c5d-bdd9-54118ed7f081",
+                "resourcePath": "views\\ac9fbfb8-cc9e-4129-ac92-2f1b1f02717a.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "ace9cd11-1743-486f-a971-a7ddc67e7688",
             "Value": {
                 "id": "a437b622-f3db-42c5-aa81-87f5599f9492",
@@ -839,6 +903,14 @@
             }
         },
         {
+            "Key": "c7c9b17b-1fcc-4f6f-999b-74fb43d753be",
+            "Value": {
+                "id": "d4693364-1ac1-41d1-90b2-f799429f6644",
+                "resourcePath": "views\\c7c9b17b-1fcc-4f6f-999b-74fb43d753be.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "c7ed7be1-11ce-4df0-9c54-5228194fad5f",
             "Value": {
                 "id": "6c14f46c-e35a-43ae-a4d7-735a1668f823",
@@ -927,6 +999,14 @@
             }
         },
         {
+            "Key": "dc41c0b9-3911-45e1-a92e-f913536c454d",
+            "Value": {
+                "id": "5de0de4b-9870-42a3-be3c-3356730f0068",
+                "resourcePath": "sounds\\snd_player_hit01\\snd_player_hit01.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "e05c8475-9acf-47b1-8c4a-8789db1a69f7",
             "Value": {
                 "id": "9c5a169c-9af3-4bef-9a7c-57e48bc6f146",
@@ -972,6 +1052,14 @@
                 "id": "62098830-4b76-449f-837e-a416dfa60d65",
                 "resourcePath": "views\\e8c5b64e-09c6-40ce-8779-9b04cc92410e.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "e8f38538-bbdd-40fa-8db2-c91abba2a54e",
+            "Value": {
+                "id": "2ac57600-81f6-4aa8-9f2a-3c10bc1e33ab",
+                "resourcePath": "sounds\\snd_key_collect\\snd_key_collect.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -1044,6 +1132,14 @@
                 "id": "2f5fa98b-a16b-4017-8d98-0fec5cac8852",
                 "resourcePath": "scripts\\scr_rifle\\scr_rifle.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "f7860033-d092-42f6-8254-1422c2aba769",
+            "Value": {
+                "id": "9f2e8a2e-c157-486f-9c77-93bdea05180f",
+                "resourcePath": "sounds\\snd_player_death\\snd_player_death.yy",
+                "resourceType": "GMSound"
             }
         },
         {

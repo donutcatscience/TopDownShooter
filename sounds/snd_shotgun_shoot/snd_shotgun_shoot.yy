@@ -1,5 +1,5 @@
 {
-    "id": "572b71ed-d5ac-4b33-a3e1-11a0430fe88b",
+    "id": "02bbbd23-2ef2-461c-9062-ac04d7ef0662",
     "modelName": "GMSound",
     "mvc": "1.0",
     "name": "snd_shotgun_shoot",
@@ -10,5 +10,5 @@
     "preload": false,
     "sampleRate": 44100,
     "type": 0,
-    "volume": 0.8
+    "volume": 1
 }

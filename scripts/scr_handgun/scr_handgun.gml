@@ -7,8 +7,8 @@ clipSize = 12; //max clip size
 currentClip = handgun_bullets_remaining;
 reloadSpeed = 10; //haven't implemented reload speed yet
 bulletDamage = 15;
-bulletSpawn_x = 43.5; //sets cords for bullet to leave muzzle
-bulletSpawn_y = 26;
+bulletSpawn_x = 20; //sets cords for bullet to leave muzzle
+bulletSpawn_y = 25;
 
 //melee attack
 meleeDamage = 10;
@@ -40,7 +40,7 @@ if(instance_exists(obj_player)) {
 
 
 	//handle reloading
-	if (inputReload) { //checks for reload pressed
+	if (inputReload) && (currentClip < 12) { //checks for reload pressed
 		audio_play_sound(snd_handgun_reload,3,false);
 		torsoFrame = 0; //resets the torso frame back to 0 so that it doesnt get start/stop at odd places
 		currentTempTorso = 15; //sets the number of frames before going back to walk torso

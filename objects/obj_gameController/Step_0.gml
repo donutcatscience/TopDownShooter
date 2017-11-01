@@ -6,5 +6,5 @@ if (!instance_exists(obj_player)) {
 
 if (keyboard_check_pressed(vk_backspace)) game_restart();
 
-//show_debug_message("Handgun: " + string(obj_player.handgun_bullets_remaining)); 
-//show_debug_message("Shotgun: " + string(obj_player.shotgun_bullets_remaining));
+var zombieCount = instance_number(obj_zombie_basic);
+show_debug_message("Zombies Walking: " + string(zombieCount)); 

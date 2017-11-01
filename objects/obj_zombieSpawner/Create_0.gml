@@ -11,6 +11,7 @@ box_bottom = (y + (sprite_height div 2));
 maxHealth = 100;
 currentHealth = 100;
 flash = 0; //for white flash shader
+total_zombies_walking = 0;
 
 //spawn rate
 alarm_set(0,(room_speed * random_range(3,10)));

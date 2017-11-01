@@ -6,8 +6,8 @@ bulletSpeed = 50;
 clipSize = 8; //max clip size
 currentClip = shotgun_bullets_remaining;
 bulletDamage = 30;
-bulletSpawn_x = 97; //sets cords for bullet to leave muzzle
-bulletSpawn_y = 27.5;
+bulletSpawn_x = 55; //sets cords for bullet to leave muzzle
+bulletSpawn_y = 18;
 
 //melee attack
 meleeDamage = 15;
@@ -37,15 +37,13 @@ if(instance_exists(obj_player)) {
 		}
 	}
 
-	//handle shotgun reloading sounds
+	//syncs reload sound with animation frames
 	if (currentReload >= 1) && (currentTempTorso >= 1) {
-		show_debug_message(currentTempTorso);
 		if (reloadSpeed = 20) {
 			audio_play_sound(snd_shotgun_reload,3,false);
 			reloadSpeed = 0;
 		}
 		++reloadSpeed;
-		show_debug_message(reloadSpeed);
 	}
 		
 	//handle reloading
@@ -53,7 +51,6 @@ if(instance_exists(obj_player)) {
 		torsoFrame = 0; //resets the torso frame back to 0 so that it doesnt get start/stop at odd places
 		currentTempTorso = ((clipSize - currentClip) * 20); //sets the number of frames before going back to walk torso
 		currentReload = clipSize - currentClip; //locks character into reload animation
-
 		currentClip = clipSize; 
 		playerCurrentTorso = spr_player_shotgun_reload; //changes torso to handgun reload animation
 		playerLastTorso = spr_player_shotgun_walk; //preserves previous torso
@@ -71,10 +68,12 @@ if(instance_exists(obj_player)) {
 			var imageAngle = point_direction(obj_player.x,obj_player.y,mouse_x,mouse_y);
 			var xx = obj_player.x + lengthdir_x(length,gunDirection+imageAngle);
 			var yy = obj_player.y + lengthdir_y(length,gunDirection+imageAngle);
-			var bullet = instance_create_layer(xx,yy,"Instances",obj_shotgun_bullet); //above math finds creation point for bullet to leave muzzle
+			for(var ii=0; ii<12; ii++) {
+				var spread = irandom_range(-5,5);
+				var bullet = instance_create_layer(xx,yy,"Instances",obj_shotgun_bullet); //above math finds creation point for bullet to leave muzzle
+				bullet.direction = imageAngle + spread;
+			}
 			--currentClip;
-			bullet.direction = imageAngle;
-			bullet.image_angle = imageAngle;		
 			playerCurrentTorso = spr_player_shotgun_shoot;
 			playerLastTorso = spr_player_shotgun_walk;
 		}

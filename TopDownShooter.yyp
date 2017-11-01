@@ -47,6 +47,14 @@
             }
         },
         {
+            "Key": "02bbbd23-2ef2-461c-9062-ac04d7ef0662",
+            "Value": {
+                "id": "a60097e9-424a-4270-aeb6-3fce7141b410",
+                "resourcePath": "sounds\\snd_shotgun_shoot\\snd_shotgun_shoot.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "030dec62-fc0e-442a-93ce-3c5775b4794f",
             "Value": {
                 "id": "eba9f31f-569b-4bd3-bd23-bac8e424eb5e",
@@ -322,7 +330,7 @@
             "Key": "434da201-47cd-4388-94bf-3f112fe17ca8",
             "Value": {
                 "id": "8c9ccc29-d1ef-4cb6-a01c-c087c2ce3270",
-                "resourcePath": "objects\\obj_shotgun_bullet\\obj_shotgun_bullet.yy",
+                "resourcePath": "objects\\obj_handgun_bullet\\obj_handgun_bullet.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -407,11 +415,11 @@
             }
         },
         {
-            "Key": "572b71ed-d5ac-4b33-a3e1-11a0430fe88b",
+            "Key": "55ea245a-4474-4393-8085-8dbfd772dc9a",
             "Value": {
-                "id": "b89fdd80-b22d-4d50-9796-c1055bd5b91b",
-                "resourcePath": "sounds\\snd_shotgun_shoot\\snd_shotgun_shoot.yy",
-                "resourceType": "GMSound"
+                "id": "1cbddc50-8422-42e6-b878-ea33548c961d",
+                "resourcePath": "views\\55ea245a-4474-4393-8085-8dbfd772dc9a.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -1130,7 +1138,7 @@
             "Key": "e90bb713-1513-4c93-8a16-b4beecd11a32",
             "Value": {
                 "id": "ceb4a6e0-f5f7-4c53-b6a2-62280354222c",
-                "resourcePath": "objects\\obj_handgun_bullet\\obj_handgun_bullet.yy",
+                "resourcePath": "objects\\obj_shotgun_bullet\\obj_shotgun_bullet.yy",
                 "resourceType": "GMObject"
             }
         },

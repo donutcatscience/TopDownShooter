@@ -1,38 +1,38 @@
 {
-    "id": "434da201-47cd-4388-94bf-3f112fe17ca8",
+    "id": "e90bb713-1513-4c93-8a16-b4beecd11a32",
     "modelName": "GMObject",
     "mvc": "1.0",
     "name": "obj_handgun_bullet",
     "eventList": [
         {
-            "id": "451b256d-0d51-446a-b165-a2fa842d7279",
+            "id": "44e4859d-eacc-4ae4-b9d1-d698fa4f4162",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "434da201-47cd-4388-94bf-3f112fe17ca8"
+            "m_owner": "e90bb713-1513-4c93-8a16-b4beecd11a32"
         },
         {
-            "id": "c69f32d3-6e2c-434a-9e57-390d29b2f71b",
+            "id": "b8902331-6e75-4527-b7ce-83e7d6f9d3fa",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 7,
-            "m_owner": "434da201-47cd-4388-94bf-3f112fe17ca8"
+            "m_owner": "e90bb713-1513-4c93-8a16-b4beecd11a32"
         },
         {
-            "id": "58e67d08-e5e8-4e09-a090-0a5cb5be90e2",
+            "id": "4a1d4372-7dec-4780-849c-cd7f4c5e4d18",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "f58aaa22-b140-4493-a19e-93a79858c032",
             "enumb": 0,
             "eventtype": 4,
-            "m_owner": "434da201-47cd-4388-94bf-3f112fe17ca8"
+            "m_owner": "e90bb713-1513-4c93-8a16-b4beecd11a32"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",

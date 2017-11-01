@@ -16,7 +16,7 @@ if fireWeapon = 1 {
 		--currentTempTorso;
 		if (currentTempTorso <= 0) {
 			currentReload = 0;
-			currentTorso = playerLastTorso;
+			playerCurrentTorso = playerLastTorso;
 			torsoFrame = 0;
 			fireWeapon = 0;
 		}
@@ -31,7 +31,7 @@ if currentReload >= 1 {
 		--currentTempTorso;
 		if (currentTempTorso <= 0) {
 			currentReload = 0;
-			currentTorso = playerLastTorso;
+			playerCurrentTorso = playerLastTorso;
 			torsoFrame = 0;
 		}
 }
@@ -44,7 +44,7 @@ if fireWeapon = 1 {
 		++torsoFrame;
 		--currentTempTorso;
 		if (currentTempTorso <= 0) {
-			currentTorso = playerLastTorso;
+			playerCurrentTorso = playerLastTorso;
 			torsoFrame = 0;
 			fireWeapon = 0;
 		}
@@ -73,7 +73,7 @@ if (flash > 0) {
 			--currentTempTorso;
 			if (currentTempTorso <= 0) {
 				currentReload = 0;
-				currentTorso = playerLastTorso;
+				playerCurrentTorso = playerLastTorso;
 				torsoFrame = 0;
 			}
 	}
@@ -86,7 +86,7 @@ if (flash > 0) {
 			++torsoFrame;
 			--currentTempTorso;
 			if (currentTempTorso <= 0) {
-				currentTorso = playerLastTorso;
+				playerCurrentTorso = playerLastTorso;
 				torsoFrame = 0;
 				fireWeapon = 0;
 			}

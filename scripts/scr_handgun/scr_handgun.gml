@@ -1,9 +1,10 @@
 //get player imputs
 scr_getInputs();
 
-//set handgun variables ALL OF THESE NEED TO BE MOVED OUT INTO A SEPERATE SCRIPT
+//set handgun variables 
 bulletSpeed = 50;
 clipSize = 12; //max clip size
+currentClip = handgun_bullets_remaining;
 reloadSpeed = 10; //haven't implemented reload speed yet
 bulletDamage = 15;
 bulletSpawn_x = 43.5; //sets cords for bullet to leave muzzle
@@ -44,7 +45,7 @@ if(instance_exists(obj_player)) {
 		torsoFrame = 0; //resets the torso frame back to 0 so that it doesnt get start/stop at odd places
 		currentTempTorso = 15; //sets the number of frames before going back to walk torso
 		currentReload = 1; //
-		currentClip = 12; // fills the clip with 12 bullets
+		currentClip = clipSize; // fills the clip with 12 bullets
 		playerCurrentTorso = spr_player_handgun_reload; //changes torso to handgun reload animation
 		playerLastTorso = spr_player_handgun_walk; //preserves previous torso
 	}
@@ -73,3 +74,5 @@ if(instance_exists(obj_player)) {
 		audio_play_sound(snd_emptyClip,3,false);
 	}
 }
+
+handgun_bullets_remaining = currentClip; //tracks handgun bullets vs shotgun bullets

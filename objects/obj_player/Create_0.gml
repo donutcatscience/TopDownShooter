@@ -16,13 +16,17 @@ currentHealth = 100;
 maxHealth = 100;
 playerKeys = 0;
 
-//action switch states
+//gun variables
 fireWeapon = 0;
 currentReload = 0;
-currentClip = 12;
+reloadSpeed = 0;
+handgun_bullets_remaining = 12;
+shotgun_bullets_remaining = 8;
+currentClip = 0;
 bulletSpawn_x = 0;
 bulletSpawn_y = 0;
 
+//action switch states
 playerCurrentFeet = spr_player_feet_walk;
 playerCurrentTorso = spr_player_knife_walk;
 playerLastTorso = spr_player_knife_walk;
@@ -33,7 +37,7 @@ torsoFrame = 0;
 currentTempTorso = 0;
 footSteps = 10;
 
-box_left = 0;  //remove these after game is finished
+box_left = 0; 
 box_top = 0;
 box_right = 0;
 box_bottom = 0;

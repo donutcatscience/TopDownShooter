@@ -1,7 +1,7 @@
 //get player imputs
 scr_getInputs();
 
-meleeDamage = 25;
+meleeDamage = 15;
 bulletSpawn_x = 50; //sets location for melee collision box
 bulletSpawn_y = 35;
 

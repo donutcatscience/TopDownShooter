@@ -5,7 +5,7 @@ scr_getInputs();
 bulletSpeed = 50;
 clipSize = 8; //max clip size
 currentClip = shotgun_bullets_remaining;
-bulletDamage = 30;
+bulletDamage = 45;
 bulletSpawn_x = 55; //sets cords for bullet to leave muzzle
 bulletSpawn_y = 18;
 

@@ -71,7 +71,7 @@ if(instance_exists(obj_player)) {
 			var muzzleFlash = instance_create_layer(xx,yy,"Instances",obj_shotgun_muzzleflash);
 			muzzleFlash.image_angle = imageAngle;
 			for(var ii=0; ii<12; ii++) {
-				var spread = irandom_range(-5,5);
+				var spread = irandom_range(-7,7);
 				var bullet = instance_create_layer(xx,yy,"Instances",obj_shotgun_bullet); //above math finds creation point for bullet to leave muzzle
 				bullet.direction = imageAngle + spread;
 				bullet.speed = bulletSpeed - irandom_range(4,10);

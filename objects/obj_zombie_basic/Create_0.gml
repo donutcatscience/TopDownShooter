@@ -12,7 +12,7 @@ meleeDamage = 10;
 
 walkFrame = 0;
 attackFrame = 0;
-enemySpeed = 1;
+enemySpeed = random_range(1,3);
 flash = 0;
 footSteps = 10;
 

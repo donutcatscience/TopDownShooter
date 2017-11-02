@@ -10,7 +10,7 @@ bulletSpawn_x = 55; //sets cords for bullet to leave muzzle
 bulletSpawn_y = 18;
 
 //melee attack
-meleeDamage = 15;
+meleeDamage = 12;
 meleeSpawn_x = 50; //sets cords for melee collision box
 meleeSpawn_y = 35;
 
@@ -68,10 +68,13 @@ if(instance_exists(obj_player)) {
 			var imageAngle = point_direction(obj_player.x,obj_player.y,mouse_x,mouse_y);
 			var xx = obj_player.x + lengthdir_x(length,gunDirection+imageAngle);
 			var yy = obj_player.y + lengthdir_y(length,gunDirection+imageAngle);
+			var muzzleFlash = instance_create_layer(xx,yy,"Instances",obj_shotgun_muzzleflash);
+			muzzleFlash.image_angle = imageAngle;
 			for(var ii=0; ii<12; ii++) {
 				var spread = irandom_range(-5,5);
 				var bullet = instance_create_layer(xx,yy,"Instances",obj_shotgun_bullet); //above math finds creation point for bullet to leave muzzle
 				bullet.direction = imageAngle + spread;
+				bullet.speed = bulletSpeed - irandom_range(4,10);
 			}
 			--currentClip;
 			playerCurrentTorso = spr_player_shotgun_shoot;

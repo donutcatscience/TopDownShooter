@@ -151,6 +151,14 @@
             }
         },
         {
+            "Key": "190687c0-e415-4f27-aa5f-b5392915b9a3",
+            "Value": {
+                "id": "50cf2b7d-3f21-4527-a566-3462d400c0ad",
+                "resourcePath": "sprites\\spr_shotgun_muzzleflash\\spr_shotgun_muzzleflash.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "1ce8c570-7d36-4d4e-98e1-80590578bc94",
             "Value": {
                 "id": "f5f291dd-2999-4291-bf32-b4d616d7e339",
@@ -319,14 +327,6 @@
             }
         },
         {
-            "Key": "4152c69e-b143-4767-9017-3e5f42e579fa",
-            "Value": {
-                "id": "85a74120-e26d-485d-be37-177517ae5d7d",
-                "resourcePath": "sprites\\sprite41\\sprite41.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "434da201-47cd-4388-94bf-3f112fe17ca8",
             "Value": {
                 "id": "8c9ccc29-d1ef-4cb6-a01c-c087c2ce3270",
@@ -359,6 +359,14 @@
             }
         },
         {
+            "Key": "490b516f-dbf8-46c5-8df7-26620df2e393",
+            "Value": {
+                "id": "05a16b3b-fe93-4e81-9833-4f4267f3dbab",
+                "resourcePath": "objects\\obj_handgun_muzzleflash\\obj_handgun_muzzleflash.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "49edd500-8421-4536-8ad8-7aeb54592b3c",
             "Value": {
                 "id": "bb6722b3-41a5-495e-8ae1-7d2b494c071a",
@@ -375,11 +383,27 @@
             }
         },
         {
+            "Key": "4ac1b212-ca94-4437-b986-f5f01d603ba8",
+            "Value": {
+                "id": "bfec585e-f14f-4790-aa91-59b1d0240c85",
+                "resourcePath": "objects\\obj_shotgun_muzzleflash\\obj_shotgun_muzzleflash.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "4bbe9771-1b02-4806-bda5-ad267008e199",
             "Value": {
                 "id": "26c9f5ba-78b2-474b-aebf-14dcff0c008d",
                 "resourcePath": "scripts\\scr_shotgun\\scr_shotgun.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "4edd87a7-2379-4a54-bfc6-60f21c356b66",
+            "Value": {
+                "id": "f9816d27-436a-4201-a605-c9be45ac3810",
+                "resourcePath": "views\\4edd87a7-2379-4a54-bfc6-60f21c356b66.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -583,6 +607,14 @@
             }
         },
         {
+            "Key": "75fb5c78-d9c8-4750-aa03-d6f4745ee142",
+            "Value": {
+                "id": "5ac562ca-bf78-40ba-bbbf-bc25e75e4d80",
+                "resourcePath": "sprites\\spr_handgun_ammo_gui\\spr_handgun_ammo_gui.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "796ede49-680b-41fd-ad68-1a4f896f892c",
             "Value": {
                 "id": "86820feb-f863-41d5-a85d-1e45158284ff",
@@ -727,6 +759,14 @@
             }
         },
         {
+            "Key": "94de8167-a139-46ab-a2e9-2eceecf302cd",
+            "Value": {
+                "id": "18791a47-55af-4ea8-b498-a5f99d0b9279",
+                "resourcePath": "sprites\\spr_handgun_muzzleflash\\spr_handgun_muzzleflash.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "95bce95b-4036-49eb-82b7-8086f1d678a0",
             "Value": {
                 "id": "88618de5-f483-4abb-829b-7c019a3cf0e7",
@@ -780,6 +820,14 @@
                 "id": "a5eee5d5-65b9-4731-9017-433912197b8f",
                 "resourcePath": "rooms\\rm_main\\rm_main.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "9eb5fc7c-9675-4c9a-bcf5-6e74b68b817f",
+            "Value": {
+                "id": "28c97f7d-1b80-4077-b659-e230fbea55ff",
+                "resourcePath": "sprites\\spr_shotgun_ammo_gui\\spr_shotgun_ammo_gui.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -948,6 +996,14 @@
                 "id": "7693d13f-70ab-4dde-be38-df052ebf1c9a",
                 "resourcePath": "views\\c33c295a-cc8b-476b-863d-c7594c545c86.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "c3c04418-2f4f-4daa-a567-fb86cef40f5b",
+            "Value": {
+                "id": "fb431b5f-1c13-4600-828e-b67468c807b3",
+                "resourcePath": "fonts\\fnt_bullet\\fnt_bullet.yy",
+                "resourceType": "GMFont"
             }
         },
         {
@@ -1172,6 +1228,14 @@
                 "id": "8fa57dc7-4454-4c75-9852-fbb1dfb01b39",
                 "resourcePath": "views\\f39fac70-f08e-4b0a-8719-f6509c939407.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "f3f2e447-208b-4c7b-9782-852ee0dcb5ad",
+            "Value": {
+                "id": "4c1178e6-449e-473b-81c2-4fc75199f877",
+                "resourcePath": "objects\\obj_handgun_icon\\obj_handgun_icon.yy",
+                "resourceType": "GMObject"
             }
         },
         {

@@ -1,6 +1,6 @@
 /// @description Controls Sprite Animation
 
-draw_rectangle(box_left,box_top,box_right,box_bottom,true); //TEMP FOR COLLISIONS
+//draw_rectangle(box_left,box_top,box_right,box_bottom,true); //TEMP FOR COLLISIONS
 
 //draw player healthbar
 if (currentHealth < maxHealth) {

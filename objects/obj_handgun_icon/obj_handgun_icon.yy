@@ -1,28 +1,18 @@
 {
-    "id": "80ac8f17-b00f-4023-8aca-11025e720cce",
+    "id": "f3f2e447-208b-4c7b-9782-852ee0dcb5ad",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_meleeHit",
+    "name": "obj_handgun_icon",
     "eventList": [
         {
-            "id": "df50cd9e-cbe6-4a24-abd2-377671cf557f",
+            "id": "2befdd40-8445-4109-9f6e-38d6e791244a",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "80ac8f17-b00f-4023-8aca-11025e720cce"
-        },
-        {
-            "id": "12c2f8d4-2b9b-48e8-bf65-1e2a54328b8e",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 2,
-            "m_owner": "80ac8f17-b00f-4023-8aca-11025e720cce"
+            "enumb": 64,
+            "eventtype": 8,
+            "m_owner": "f3f2e447-208b-4c7b-9782-852ee0dcb5ad"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -41,6 +31,6 @@
     "physicsShapePoints": null,
     "physicsStartAwake": true,
     "solid": false,
-    "spriteId": "e28ff222-9fad-4d11-a5fd-99c6256d47fa",
-    "visible": false
+    "spriteId": "75fb5c78-d9c8-4750-aa03-d6f4745ee142",
+    "visible": true
 }

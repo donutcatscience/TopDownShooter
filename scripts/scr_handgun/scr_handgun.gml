@@ -63,6 +63,8 @@ if(instance_exists(obj_player)) {
 			var xx = obj_player.x + lengthdir_x(length,gunDirection+imageAngle);
 			var yy = obj_player.y + lengthdir_y(length,gunDirection+imageAngle);
 			var bullet = instance_create_layer(xx,yy,"Instances",obj_handgun_bullet); //above math finds creation point for bullet to leave muzzle
+			var muzzleFlash = instance_create_layer(xx,yy,"Instances",obj_handgun_muzzleflash);
+			muzzleFlash.image_angle = imageAngle;
 			--currentClip;
 			bullet.direction = imageAngle;
 			bullet.image_angle = imageAngle;		

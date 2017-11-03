@@ -1,3 +1,6 @@
 /// @description Loads game assets
 
-scr_new_game();
+gameActive = 0;
+
+scr_splash_screen();
+

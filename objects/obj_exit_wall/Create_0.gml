@@ -1,5 +1,8 @@
 /// @description creates player wall objects
 
+image_xscale = 2;
+image_yscale = 2;
+
 //save walls to delete later
 box1 = instance_create_layer(2976,1951,"Instances",obj_playerWall);
 box2 = instance_create_layer(2976,1985,"Instances",obj_playerWall);

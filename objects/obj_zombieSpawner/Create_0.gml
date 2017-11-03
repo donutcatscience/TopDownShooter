@@ -1,5 +1,8 @@
 /// @description Spawns zombies
 
+image_xscale = 1.8;
+image_yscale = 2.2;
+
 //initialize bounding box variables for collision
 box_left = (x - (sprite_width div 2)); 
 box_right = (x + (sprite_width div 2));
@@ -11,7 +14,6 @@ box_bottom = (y + (sprite_height div 2));
 maxHealth = 100;
 currentHealth = 100;
 flash = 0; //for white flash shader
-total_zombies_walking = 0;
 
 //spawn rate
 alarm_set(0,(room_speed * random_range(3,10)));

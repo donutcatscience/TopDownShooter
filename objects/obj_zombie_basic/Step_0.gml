@@ -7,6 +7,7 @@ box_top = (y - (obj_zombie_basic.sprite_height));
 box_bottom = (y + (obj_zombie_basic.sprite_height));
 
 if (currentHealth <= 0) {
+	score += 10;
 	instance_destroy(self);
 }
 

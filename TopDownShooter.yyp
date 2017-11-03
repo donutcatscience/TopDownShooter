@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "000a5f23-50de-468a-88e0-6de548d0d15e",
+            "Value": {
+                "id": "254195ee-a414-4025-859a-a5f9c474cf77",
+                "resourcePath": "sounds\\mus_splash_screen01\\mus_splash_screen01.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "006b908a-fe92-47fd-af16-cdb84e02dc86",
             "Value": {
                 "id": "66502207-7456-4446-8f4d-b010a09fa3eb",
@@ -279,11 +287,27 @@
             }
         },
         {
+            "Key": "32ef2c28-f36b-4e67-a9cc-5eb00703479c",
+            "Value": {
+                "id": "31bdb9ee-7e0d-4149-8c37-14638f04e547",
+                "resourcePath": "objects\\obj_control_text\\obj_control_text.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "33556f18-8b68-4437-9460-3f1480694d2e",
             "Value": {
                 "id": "ac468ba3-8376-4b21-9998-36db1da9831c",
                 "resourcePath": "sprites\\spr_player_shotgun_walk\\spr_player_shotgun_walk.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "355949b9-53ad-4697-ba7a-27d79a96dbf1",
+            "Value": {
+                "id": "acaf53df-ba46-4558-9e2f-d2d2da10b006",
+                "resourcePath": "sounds\\snd_idle_zombie_moan\\snd_idle_zombie_moan.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -1231,6 +1255,14 @@
             }
         },
         {
+            "Key": "d7c30ebd-5146-4ef4-8338-d0be3ce1db0a",
+            "Value": {
+                "id": "327d3709-d762-427b-9294-c62b8dd5bb38",
+                "resourcePath": "objects\\obj_splash_music_controller\\obj_splash_music_controller.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "d8985f39-2eae-4e2a-b434-d36f45e148b5",
             "Value": {
                 "id": "3562a284-ff84-41b2-b835-b858af9aa075",
@@ -1436,6 +1468,14 @@
                 "id": "95f4c0d2-513f-4445-a6c7-5c167f625cd1",
                 "resourcePath": "sprites\\bg_tileFloor\\bg_tileFloor.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "fe94a927-fa3f-4158-b231-3a86cba20b07",
+            "Value": {
+                "id": "5eb29a64-ee39-46f0-88ca-53ae9c92bc2e",
+                "resourcePath": "sounds\\mus_splash_screen02\\mus_splash_screen02.yy",
+                "resourceType": "GMSound"
             }
         }
     ],

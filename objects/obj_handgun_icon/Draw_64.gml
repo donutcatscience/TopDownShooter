@@ -13,4 +13,12 @@ if (instance_exists(obj_player)) {
 	//draw keys collected
 	draw_sprite_ext(spr_keys,0,205,40,.8,.8,0,c_white,1);
 	draw_text(255,35,string(obj_player.playerKeys) + "/6");
+	
+	//draw score
+	draw_text(355,35,"Score: " + string(score));
+	
+	//for game testing
+	var zombieCount = instance_number(obj_zombie_basic);
+	draw_text(600,35,"Zombies: " + string(zombieCount));
+	
 }

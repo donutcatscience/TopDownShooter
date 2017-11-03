@@ -1,10 +1,10 @@
 /// @description Set Variables
 //size modifier
 sizeModifier = .5;
-
 image_xscale = sizeModifier;
 image_yscale = sizeModifier;
 
+score = 0;
 
 //player variables
 diagonalPenalty = 1.2; //keeps player from getting a movement advatage by moving diagionaly
@@ -53,4 +53,4 @@ enum player_state {
 //start with knife out
 currentState = player_state.knife;
 
-instance_create_layer(1,1,"Instances",obj_fakeMouse);
+instance_create_layer(1,1,"UI",obj_fakeMouse);

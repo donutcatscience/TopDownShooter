@@ -18,7 +18,7 @@ if (instance_exists(obj_player)) {
 	draw_text(355,35,"Score: " + string(score));
 	
 	//for game testing
-	var zombieCount = instance_number(obj_zombie_basic);
-	draw_text(600,35,"Zombies: " + string(zombieCount));
+	//var zombieCount = instance_number(obj_zombie_basic);
+	//draw_text(600,35,"Zombies: " + string(zombieCount));
 	
 }

@@ -11,8 +11,8 @@ box_top = (y - (sprite_height div 2));
 box_bottom = (y + (sprite_height div 2));
 
 //zombie spawner stats
-maxHealth = 100;
-currentHealth = 100;
+maxHealth = 150;
+currentHealth = 150;
 flash = 0; //for white flash shader
 
 //spawn rate

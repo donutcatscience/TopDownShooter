@@ -95,6 +95,14 @@
             }
         },
         {
+            "Key": "05d27649-a066-4d9d-a1a1-16831d96c408",
+            "Value": {
+                "id": "d657f0c4-de07-4f16-b129-50f7456d6212",
+                "resourcePath": "sounds\\snd_exit_bars_moving\\snd_exit_bars_moving.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "066f8292-5792-4048-9da2-4d8d5adce5f5",
             "Value": {
                 "id": "eea913ae-0c58-4df3-9426-71cbceceba2b",
@@ -247,6 +255,14 @@
             }
         },
         {
+            "Key": "2767956b-5af0-4365-8232-59a3f0b31323",
+            "Value": {
+                "id": "ba8eab21-1f12-4e31-82df-4888b221e959",
+                "resourcePath": "sounds\\snd_mission_completed\\snd_mission_completed.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "27cd4938-e2df-4bf3-8f0e-3466b38898ed",
             "Value": {
                 "id": "c1b387f0-20ec-49ba-823c-3ae0f654084b",
@@ -284,6 +300,14 @@
                 "id": "636be338-afe7-4b75-8763-195743c2b557",
                 "resourcePath": "sprites\\spr_player_handgun_walk\\spr_player_handgun_walk.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "315e2b27-2f9b-456c-afb2-7889a8f6d43b",
+            "Value": {
+                "id": "eb63d96c-d6c6-42f3-9735-64fa96d9902e",
+                "resourcePath": "objects\\obj_congrats_title\\obj_congrats_title.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -659,14 +683,6 @@
             "Value": {
                 "id": "87a7ef63-553a-4c89-82bd-69246ac71e9b",
                 "resourcePath": "objects\\obj_light\\obj_light.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "703c09b4-f0bb-4030-a938-2aabe7f11771",
-            "Value": {
-                "id": "29afcdbf-a576-4c97-9fe7-710f82706849",
-                "resourcePath": "objects\\obj_congrats_title\\obj_congrats_title.yy",
                 "resourceType": "GMObject"
             }
         },

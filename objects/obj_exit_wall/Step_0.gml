@@ -7,6 +7,6 @@ if (instance_exists(obj_player)){
 		instance_destroy(box3);
 		instance_destroy(box4);
 		instance_destroy();
-		audio_play_sound(snd_key_collect,1,false) //temp sound
+		audio_play_sound(snd_exit_bars_moving,1,false) //temp sound
 	}
 }

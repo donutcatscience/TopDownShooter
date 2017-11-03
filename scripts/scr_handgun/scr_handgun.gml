@@ -6,7 +6,7 @@ bulletSpeed = 50;
 clipSize = 12; //max clip size
 currentClip = handgun_bullets_remaining;
 reloadSpeed = 10; //haven't implemented reload speed yet
-bulletDamage = 25;
+bulletDamage = 20;
 bulletSpawn_x = 20; //sets cords for bullet to leave muzzle
 bulletSpawn_y = 25;
 

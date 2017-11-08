@@ -1,7 +1,7 @@
 /// @description controls the wall that blocks the player from exiting
 
 if (instance_exists(obj_player)){
-	if (obj_player.playerKeys = 6) {
+	if (obj_player.playerKeys = obj_room_controller.max_keys) {
 		instance_destroy(box1);
 		instance_destroy(box2);
 		instance_destroy(box3);

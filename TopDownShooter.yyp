@@ -263,6 +263,14 @@
             }
         },
         {
+            "Key": "23730c96-8b3b-4e43-ace3-b3869e943638",
+            "Value": {
+                "id": "c963b3fd-35fb-41e0-954a-bf910eb20ed7",
+                "resourcePath": "scripts\\scr_prototype02\\scr_prototype02.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "23d7b316-a55f-4bdd-b1ed-20e825205769",
             "Value": {
                 "id": "bd1c55f8-de68-424c-95f6-086d4d290dd2",
@@ -1191,6 +1199,14 @@
             }
         },
         {
+            "Key": "b89e5f22-195c-44c6-83c3-02edc51d51e9",
+            "Value": {
+                "id": "d8bf00cc-caa5-4bec-841a-20de29e0bfc0",
+                "resourcePath": "objects\\obj_room_controller\\obj_room_controller.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "bf496b55-06bf-4b46-b59a-4f47c80c299e",
             "Value": {
                 "id": "eeaa2354-5136-48b4-b618-e60038ae1146",
@@ -1407,6 +1423,14 @@
             }
         },
         {
+            "Key": "e06a69c7-5074-4075-b737-e05ad2af59ac",
+            "Value": {
+                "id": "b14472cf-0be2-4f88-92ea-3978459f05cc",
+                "resourcePath": "scripts\\scr_prototype03\\scr_prototype03.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "e28ff222-9fad-4d11-a5fd-99c6256d47fa",
             "Value": {
                 "id": "181e9f95-f239-4412-adc8-ab22123f9f04",
@@ -1614,6 +1638,8 @@
         "96d0d70c-1c3a-4662-adbe-eb7dabae9f5b",
         "4b6305ff-cadc-48c8-bbdc-a99adc742073",
         "a0c464a3-616f-4239-9391-221702fa9902",
+        "23730c96-8b3b-4e43-ace3-b3869e943638",
+        "e06a69c7-5074-4075-b737-e05ad2af59ac",
         "87f86c8a-63f8-4418-a3dd-bc4674ad705a"
     ],
     "tutorial": ""

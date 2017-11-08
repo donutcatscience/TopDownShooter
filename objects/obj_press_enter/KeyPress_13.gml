@@ -6,4 +6,4 @@ instance_destroy(obj_splash_music_controller);
 audio_stop_all();
 instance_destroy();
 
-scr_new_game();
+scr_prototype01();

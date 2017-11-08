@@ -1,7 +1,7 @@
 /// @description Loads game assets
 
-gameActive = 0;
-win = 0;
+//global.level = 0;
 
 scr_splash_screen();
+
 

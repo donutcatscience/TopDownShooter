@@ -12,7 +12,7 @@ if (instance_exists(obj_player)) {
 
 	//draw keys collected
 	draw_sprite_ext(spr_keys,0,205,40,.8,.8,0,c_white,1);
-	draw_text(255,35,string(obj_player.playerKeys) + "/6");
+	draw_text(255,35,string(obj_player.playerKeys) + "/" + string(obj_room_controller.max_keys));
 	
 	//draw score
 	draw_text(355,35,"Score: " + string(score));

@@ -4,15 +4,13 @@ sizeModifier = .5;
 image_xscale = sizeModifier;
 image_yscale = sizeModifier;
 
-score = 0;
-
 //player variables
 diagonalPenalty = 1.2; //keeps player from getting a movement advatage by moving diagionaly
 playerSpeed = 5;
 currentPlayerSpeed = 0;
 moveX = 0;
 moveY = 0;
-currentHealth = 100;
+currentHealth = health;
 maxHealth = 100;
 playerKeys = 0;
 

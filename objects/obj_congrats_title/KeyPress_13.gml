@@ -14,7 +14,12 @@ instance_destroy(obj_zombieSpawner);
 instance_destroy(obj_zombie_basic);
 instance_destroy(obj_handgun_icon);
 instance_destroy();
-room_goto_next();
+
+if (room_get_name(room) = "rm_prototype03") {
+	game_restart();
+}
+
+else room_goto_next();
 
 //if (global.level = 1) {
 //	show_debug_message("Going to level 2");

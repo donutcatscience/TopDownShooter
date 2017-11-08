@@ -1,6 +1,6 @@
 
 {
-    "name": "rm_main",
+    "name": "rm_demo01",
     "id": "9dbc6805-9b3e-48da-b019-47472a222252",
     "creationCodeFile": "",
     "inheritCode": false,
@@ -823,7 +823,7 @@
             "grid_x": 32,
             "grid_y": 32,
             "hierarchyFrozen": false,
-            "hierarchyVisible": false,
+            "hierarchyVisible": true,
             "inheritLayerDepth": false,
             "inheritLayerSettings": false,
             "inheritSubLayers": false,
@@ -975,7 +975,7 @@
             "modelName": "GMRInstanceLayer",
             "mvc": "1.0",
             "userdefined_depth": false,
-            "visible": false
+            "visible": true
         },
         {
             "__type": "GMRTileLayer_Model:#YoYoStudio.MVCFormat",

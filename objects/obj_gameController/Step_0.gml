@@ -11,7 +11,7 @@ if (gameActive = 1) && (!instance_exists(obj_player)) && (!instance_exists(obj_g
 	instance_create_layer(0,0,"UI",obj_game_over);
 }
 
-if (keyboard_check_pressed(vk_backspace)) game_restart();
+if (keyboard_check_pressed(vk_backspace)) room_restart();
 
 //used to test zombie cration
 //var zombieCount = instance_number(obj_zombie_basic);

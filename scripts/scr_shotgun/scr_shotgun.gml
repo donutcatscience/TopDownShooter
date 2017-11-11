@@ -41,6 +41,7 @@ if(instance_exists(obj_player)) {
 	if (currentReload >= 1) && (currentTempTorso >= 1) {
 		if (reloadSpeed = 20) {
 			audio_play_sound(snd_shotgun_reload,3,false);
+			currentClip++;
 			reloadSpeed = 0;
 		}
 		++reloadSpeed;
@@ -51,7 +52,7 @@ if(instance_exists(obj_player)) {
 		torsoFrame = 0; //resets the torso frame back to 0 so that it doesnt get start/stop at odd places
 		currentTempTorso = ((clipSize - currentClip) * 20); //sets the number of frames before going back to walk torso
 		currentReload = clipSize - currentClip; //locks character into reload animation
-		currentClip = clipSize; 
+		//currentClip = clipSize; 
 		playerCurrentTorso = spr_player_shotgun_reload; //changes torso to handgun reload animation
 		playerLastTorso = spr_player_shotgun_walk; //preserves previous torso
 	}
@@ -80,6 +81,11 @@ if(instance_exists(obj_player)) {
 			playerCurrentTorso = spr_player_shotgun_shoot;
 			playerLastTorso = spr_player_shotgun_walk;
 		}
+	}
+	else if(inputShoot) && (currentClip >= 1) && (currentReload > 0){
+		inputReload = 0;
+		currentReload = 0;
+		show_debug_message("heree");
 	}
 	if (inputShoot) && (currentClip <= 0) && (currentReload = 0) { //empty clip sound
 		audio_play_sound(snd_emptyClip,3,false);

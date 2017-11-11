@@ -6,7 +6,8 @@
     "children": [
         "de9bc4e0-1d6f-44ff-9b13-9c8551966691",
         "c450c5fa-8d9b-43c9-ab74-b1841c1b115b",
-        "5bbd161c-590f-46df-b102-435e98b22977"
+        "5bbd161c-590f-46df-b102-435e98b22977",
+        "e946443f-fdeb-4787-8245-bd00971f1f6a"
     ],
     "filterType": "GMRoom",
     "folderName": "Prototype Levels",

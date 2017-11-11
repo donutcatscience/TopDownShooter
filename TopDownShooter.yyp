@@ -279,6 +279,14 @@
             }
         },
         {
+            "Key": "241055ab-a82d-4efd-ac37-904ba18dc275",
+            "Value": {
+                "id": "3c202429-8d62-4bba-8b33-d2cbd15fb906",
+                "resourcePath": "scripts\\scr_endless_mode\\scr_endless_mode.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "24eaf551-1fd6-4ff3-acfb-33dfaceeef6d",
             "Value": {
                 "id": "4849cb00-dbe0-49be-a1fa-326ca342ae55",
@@ -332,6 +340,14 @@
                 "id": "9e79ca90-6741-425b-9886-2da16b7e699e",
                 "resourcePath": "shaders\\shd_flash\\shd_flash.yy",
                 "resourceType": "GMShader"
+            }
+        },
+        {
+            "Key": "2f40d695-a751-4c0e-a490-4452f715d777",
+            "Value": {
+                "id": "a62c7b9d-067b-48f4-8e61-58fb6443fef4",
+                "resourcePath": "objects\\obj_endless_mode\\obj_endless_mode.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -847,6 +863,14 @@
             }
         },
         {
+            "Key": "82a09dd0-8964-443c-983b-2199458799de",
+            "Value": {
+                "id": "df0c19e9-199c-4a74-89c2-b92d6a413cdb",
+                "resourcePath": "sprites\\spr_endlessMode\\spr_endlessMode.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "83a6fd19-a7df-4b98-b307-4e36814b4e60",
             "Value": {
                 "id": "1b1710e3-0a23-4b37-ac51-976ddfb57916",
@@ -948,6 +972,14 @@
                 "id": "ddddf7a0-2910-4b1a-83fb-eec11c704c7e",
                 "resourcePath": "objects\\obj_exit_wall\\obj_exit_wall.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "9216d785-19dc-42c7-bc3c-1e5c59b1e4b2",
+            "Value": {
+                "id": "d84f9dd1-abde-4170-b15a-b00b00bbb9d1",
+                "resourcePath": "views\\9216d785-19dc-42c7-bc3c-1e5c59b1e4b2.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -1495,6 +1527,14 @@
             }
         },
         {
+            "Key": "e946443f-fdeb-4787-8245-bd00971f1f6a",
+            "Value": {
+                "id": "6f417d2a-b396-45cf-90f2-6dfbaa37e983",
+                "resourcePath": "rooms\\rm_prototype_endless_mode\\rm_prototype_endless_mode.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "e9beae54-9861-4cba-9b81-b1093837770f",
             "Value": {
                 "id": "36dea59e-321b-46bc-97a4-523a9cdaf875",
@@ -1640,7 +1680,8 @@
         "a0c464a3-616f-4239-9391-221702fa9902",
         "23730c96-8b3b-4e43-ace3-b3869e943638",
         "e06a69c7-5074-4075-b737-e05ad2af59ac",
-        "87f86c8a-63f8-4418-a3dd-bc4674ad705a"
+        "87f86c8a-63f8-4418-a3dd-bc4674ad705a",
+        "241055ab-a82d-4efd-ac37-904ba18dc275"
     ],
     "tutorial": ""
 }

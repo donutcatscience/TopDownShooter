@@ -3,4 +3,5 @@
 self.persistent = true;
 prevRoom = noone;
 isPaused = false;
+isNewGame = false;
 //scr_splash_screen();

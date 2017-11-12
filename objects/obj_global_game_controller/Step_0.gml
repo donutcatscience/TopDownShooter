@@ -1,7 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-show_debug_message("we have lift off");
 if (!instance_exists(obj_player)) {
 	window_set_cursor(cr_default); //hides mouse
 }

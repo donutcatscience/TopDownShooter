@@ -12,3 +12,19 @@ if (gameActive = 1) && (!instance_exists(obj_player)) && (!instance_exists(obj_g
 }
 
 if (keyboard_check_pressed(vk_backspace)) room_restart();
+if(obj_global_game_controller.isNewGame){
+	if(room_get_name(room) = "rm_prototype_endless_mode"){
+		show_debug_message("here");
+		obj_global_game_controller.isNewGame = false;
+		room_persistent = false;
+		room_restart();	
+	}
+}
+if(obj_global_game_controller.isNewGame){
+	if (room_get_name(room) = "rm_prototype01") {
+		show_debug_message("here2");
+		obj_global_game_controller.isNewGame = false;
+		room_persistent = false;
+		room_restart();	
+	}
+}

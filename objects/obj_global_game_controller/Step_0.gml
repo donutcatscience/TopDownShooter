@@ -9,7 +9,7 @@ else if (instance_exists(obj_player)){
 }
 
 //show_debug_message(isPaused);
-if(room_get_name(room) != "rm_splash_screen"){
+if(room_get_name(room) != "rm_main_menu"){
 		if(keyboard_check_pressed(vk_escape) && !isPaused){
 		room_persistent = true;
 		isPaused = true;

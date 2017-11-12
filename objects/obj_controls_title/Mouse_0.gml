@@ -3,6 +3,8 @@
 instance_destroy(obj_game_title);
 instance_destroy(obj_press_enter);
 instance_destroy(obj_endless_mode);
+instance_destroy(obj_continue_game);
+instance_destroy(obj_new_game);
 instance_create_layer(0,0,"UI",obj_control_text);
 
 instance_destroy();

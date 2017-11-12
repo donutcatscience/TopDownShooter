@@ -1071,6 +1071,14 @@
             }
         },
         {
+            "Key": "98c97aa1-a8b3-4467-a50f-b1eeb7b7d1ef",
+            "Value": {
+                "id": "40543ffb-c79d-4baf-83a0-1172b2f2c619",
+                "resourcePath": "objects\\obj_rifle_bullet\\obj_rifle_bullet.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "990b0c3b-d645-4c6f-bb8e-e0a91f2bde39",
             "Value": {
                 "id": "ea4e79b9-5f58-41fb-a3d3-358f7f5a2716",
@@ -1308,6 +1316,14 @@
                 "id": "eeaa2354-5136-48b4-b618-e60038ae1146",
                 "resourcePath": "notes\\enemy_collision Simple AI Code.yy",
                 "resourceType": "GMNotes"
+            }
+        },
+        {
+            "Key": "c2bee1f0-ac90-4cba-9ca9-b4db0b34748e",
+            "Value": {
+                "id": "e47b80cd-e308-4eea-bd07-607dd6dc1dc8",
+                "resourcePath": "sprites\\spr_rifle_bullet\\spr_rifle_bullet.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

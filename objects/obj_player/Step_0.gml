@@ -1,4 +1,4 @@
-///// @description handel inputs
+///// @description handle inputs
 
 box_left = (x - sprite_width);  //turn to var after game is finished
 box_right = (x + sprite_width);

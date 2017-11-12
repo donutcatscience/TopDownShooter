@@ -1,4 +1,5 @@
 /// @description Create Zombie
+global.zombies_pierced = 0
 
 //set size
 sizeModifier = 1.5;

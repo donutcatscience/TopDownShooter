@@ -11,6 +11,7 @@ inputReload = max(keyboard_check_pressed(ord("R")),0);
 inputKnife = max(keyboard_check(ord("1")),0);
 inputHandgun = max(keyboard_check(ord("2")),0);
 inputShotgun = max(keyboard_check(ord("3")),0);
+inputRifle = max(keyboard_check(ord("4")),0);
 
 //attack
 inputShoot = mouse_check_button_pressed(mb_left);
@@ -18,20 +19,25 @@ inputMelee = mouse_check_button_pressed(mb_right);
 
 
 //checks for weapon swapping and state changing
-if (inputKnife = 1) && (currentReload = 0) {
+if (inputKnife = true) && (currentReload = 0) { //change inputKnife = 1?
 	playerCurrentTorso = spr_player_knife_walk;
 	if (currentState != player_state.knife) audio_play_sound(snd_changeWeapon,3,false);
 	currentState = player_state.knife;
 };
-if (inputHandgun = 1) && (currentReload = 0) {
+if (inputHandgun = true) && (currentReload = 0) {
 	playerCurrentTorso = spr_player_handgun_walk;
 	if (currentState != player_state.handgun) audio_play_sound(snd_changeWeapon,3,false);
 	currentState = player_state.handgun;
 };
-if (inputShotgun = 1) && (currentReload = 0) {
+if (inputShotgun = true) && (currentReload = 0) {
 	playerCurrentTorso = spr_player_shotgun_walk;
 	if (currentState != player_state.shotgun) audio_play_sound(snd_changeWeapon,3,false);
 	currentState = player_state.shotgun;
+};
+if (inputRifle = true) && (currentReload = 0) {
+	playerCurrentTorso = spr_player_rifle_walk;
+	if (currentState != player_state.rifle) audio_play_sound(snd_changeWeapon,3,false);
+	currentState = player_state.rifle;
 };
 
 scr_collisionAndMove();

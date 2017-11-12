@@ -1,4 +1,4 @@
-/// @description Controlls Game
+/// @description Controls Game
 
 if (!instance_exists(obj_player)) {
 	window_set_cursor(cr_default); //hides mouse

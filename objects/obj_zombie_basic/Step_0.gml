@@ -22,3 +22,10 @@ case zombie_state.melee : scr_enemy_melee(); break;
 case zombie_state.wonder : scr_enemy_wonder(); break;
 }
 ++meleeTimer;
+
+////check to see # of zombies pierced with rifle
+if (global.zombies_pierced == 2)
+{
+instance_destroy(obj_rifle_bullet);
+global.zombies_pierced = 0;
+}

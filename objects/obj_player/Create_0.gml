@@ -1,6 +1,12 @@
 /// @description Set Variables
 //size modifier
-sizeModifier = .5;
+if(room_get_name(room) == "rm_prototype_endless_mode"){
+	sizeModifier = .5;
+}
+else{
+	sizeModifier = .5;	
+}
+
 image_xscale = sizeModifier;
 image_yscale = sizeModifier;
 

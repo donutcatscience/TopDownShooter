@@ -12,7 +12,9 @@
         "8c118e3f-4a9d-4022-a729-9b3b3cb63be5",
         "cdffd1b6-b6b3-42e1-8a9c-ce6fb9bc2ce0",
         "54176582-2efb-4877-87af-c9bbda5786f2",
-        "82a09dd0-8964-443c-983b-2199458799de"
+        "82a09dd0-8964-443c-983b-2199458799de",
+        "e11c7a67-5218-4dcc-92f1-abad44f46527",
+        "7ca11f08-52f0-4cec-bc41-68c5fd18a7cf"
     ],
     "filterType": "GMSprite",
     "folderName": "UI\/UX",

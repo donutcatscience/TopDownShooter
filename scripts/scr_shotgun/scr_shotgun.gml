@@ -85,7 +85,7 @@ if(instance_exists(obj_player)) {
 	else if(inputShoot) && (currentClip >= 1) && (currentReload > 0){
 		inputReload = 0;
 		currentReload = 0;
-		show_debug_message("heree");
+		playerCurrentTorso = spr_player_shotgun_walk;
 	}
 	if (inputShoot) && (currentClip <= 0) && (currentReload = 0) { //empty clip sound
 		audio_play_sound(snd_emptyClip,3,false);

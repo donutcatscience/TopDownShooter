@@ -1,6 +1,5 @@
 //loads assests for prototype level 01
 
-instance_create_layer(0,0,"Instances",obj_room_controller);
 instance_destroy(obj_light);
 
 //global.level++;

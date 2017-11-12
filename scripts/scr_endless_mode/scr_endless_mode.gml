@@ -3,7 +3,7 @@
 instance_destroy(obj_light);
 
 //global.level++;
-obj_room_controller.max_keys = 1;
+obj_room_controller.max_keys = 0;
 obj_room_controller.gameActive = 1;
 obj_room_controller.win = 0;
 

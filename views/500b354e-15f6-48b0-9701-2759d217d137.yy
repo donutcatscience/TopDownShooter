@@ -8,7 +8,8 @@
         "7ae14bf6-9195-477b-978d-769104d92a0d",
         "8cd07f29-052e-4aae-8224-3c0e6647fb2e",
         "d7c30ebd-5146-4ef4-8338-d0be3ce1db0a",
-        "b89e5f22-195c-44c6-83c3-02edc51d51e9"
+        "b89e5f22-195c-44c6-83c3-02edc51d51e9",
+        "c8021cd9-6798-40f6-ae54-d19b2afed391"
     ],
     "filterType": "GMObject",
     "folderName": "Game Controllers",

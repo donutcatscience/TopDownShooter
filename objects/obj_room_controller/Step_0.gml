@@ -9,6 +9,7 @@ else if (instance_exists(obj_player)){
 
 if (gameActive = 1) && (!instance_exists(obj_player)) && (!instance_exists(obj_game_over)) && (win = 0) {
 	instance_create_layer(0,0,"UI",obj_game_over);
+	instance_create_layer(960,600, "UI", obj_enter_score);
 }
 
 if (keyboard_check_pressed(vk_backspace)) room_restart();
@@ -22,7 +23,6 @@ if(obj_global_game_controller.isNewGame){
 }
 if(obj_global_game_controller.isNewGame){
 	if (room_get_name(room) = "rm_prototype01") {
-		show_debug_message("here2");
 		obj_global_game_controller.isNewGame = false;
 		room_persistent = false;
 		room_restart();	

@@ -15,3 +15,5 @@ instance_create_layer(96,-64,"Instances", obj_grid);
 
 audio_play_sound(mus_main,1,true);
 audio_play_sound(mus_main_backup,2,true);
+
+instance_create_layer(0,0, "UI", obj_endless_game_controller);

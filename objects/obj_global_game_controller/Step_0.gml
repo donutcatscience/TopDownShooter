@@ -8,8 +8,8 @@ else if (instance_exists(obj_player)){
 	window_set_cursor(cr_none);
 }
 
-//show_debug_message(isPaused);
-if(room_get_name(room) != "rm_main_menu"){
+
+if(room_get_name(room) != "rm_main_menu" && room_get_name(room) != "rm_high_scores"){
 	if(os_is_paused()){
 		room_persistent = true;
 		isPaused = true;

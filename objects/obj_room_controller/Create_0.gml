@@ -1,4 +1,5 @@
 /// @description initalize room variables
+
 if (room_get_name(room) = "rm_prototype01") {
 		scr_prototype01();	
 }

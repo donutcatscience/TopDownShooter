@@ -12,9 +12,9 @@ if (currentHealth <= 0) {
 }
 
 //handle zombie moan
-var iTime = irandom(600);
+var iTime = irandom(200);
 var iMoan = choose(snd_zombie_moan01,snd_zombie_moan02,snd_zombie_moan03,snd_zombie_moan04);
-if (iTime = 300) audio_play_sound(iMoan,25,false);
+if (iTime = 100) audio_play_sound(iMoan,25,false);
 
 switch (currentState) {
 case zombie_state.walk : scr_enemy_walk(); break;

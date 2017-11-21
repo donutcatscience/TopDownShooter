@@ -903,6 +903,14 @@
             }
         },
         {
+            "Key": "7c8f2cec-fdb5-4fd4-9ecd-03f846302a06",
+            "Value": {
+                "id": "91b1b804-0cf1-44f8-bf66-6732b927f23d",
+                "resourcePath": "rooms\\EmptyRoomForLevelMaking\\EmptyRoomForLevelMaking.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "7ca11f08-52f0-4cec-bc41-68c5fd18a7cf",
             "Value": {
                 "id": "d4130688-fcdf-4e5e-8c31-6082950008e3",
@@ -1383,6 +1391,14 @@
             }
         },
         {
+            "Key": "c0e3cde8-5b07-4dee-ab91-8233bed972e6",
+            "Value": {
+                "id": "b0eb12f5-5df7-4c94-9e59-9f8c3867af83",
+                "resourcePath": "rooms\\rm_prototype04\\rm_prototype04.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "c2bee1f0-ac90-4cba-9ca9-b4db0b34748e",
             "Value": {
                 "id": "e47b80cd-e308-4eea-bd07-607dd6dc1dc8",
@@ -1732,6 +1748,14 @@
                 "id": "92be99bf-69c2-41ab-94d7-6dc145d8f6a1",
                 "resourcePath": "sprites\\spr_newGame\\spr_newGame.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "f347d792-70f0-4600-8a02-1b0dea43bd66",
+            "Value": {
+                "id": "9d99418b-cebd-4165-9860-18d23046048f",
+                "resourcePath": "rooms\\rm_prototype05\\rm_prototype05.yy",
+                "resourceType": "GMRoom"
             }
         },
         {

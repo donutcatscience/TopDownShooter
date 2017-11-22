@@ -15,7 +15,7 @@ instance_destroy(obj_zombie_basic);
 instance_destroy(obj_handgun_icon);
 instance_destroy();
 
-if (room_get_name(room) = "rm_prototype03") {
+if (room_get_name(room) = "rm_prototype05") {
 	game_restart();
 }
 

@@ -12,5 +12,7 @@ if (room_get_name(room) = "rm_level_selector") {
 	draw_text(50,400,"1) rm_prototype01");
 	draw_text(50,440,"2) rm_prototype02");
 	draw_text(50,480,"3) rm_prototype03");
+	draw_text(50,520,"4) rm_prototype04");
+	draw_text(50,560,"5) rm_prototype05");
 }
 else draw_sprite_ext(spr_level_select,1,x,y,2,2,0,c_white,1);

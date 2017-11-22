@@ -1,9 +1,10 @@
 // Cleans up backend data when new levels are loaded
 
 audio_stop_all();
-
-mp_grid_destroy(global.grid);
-instance_destroy(obj_grid);
+if (instance_exists(obj_grid)) {
+	mp_grid_destroy(global.grid);
+	instance_destroy(obj_grid);
+}
 
 if(instance_exists(obj_light)) {
 	surface_free(obj_light.surf);

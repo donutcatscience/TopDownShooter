@@ -3,7 +3,7 @@ scr_getInputs();
 
 //set handgun variables 
 bulletSpeed = 90;
-clipSize = 1000; //max clip size
+clipSize = 6; //max clip size
 currentClip = rifle_bullets_remaining;
 reloadSpeed = 10; //haven't implemented reload speed yet
 bulletDamage = 20;
@@ -22,8 +22,8 @@ if(instance_exists(obj_player)) {
 		torsoFrame = 0; //resets the torso frame back to 0 so that it doesnt get start/stop at odd places
 		fireWeapon = 1;
 		currentTempTorso = 15; //sets the number of frames before going back to walk torso
-		playerCurrentTorso = spr_player_handgun_melee; //changes torso to handgun reload animation
-		playerLastTorso = spr_player_handgun_walk; //preserves previous torso
+		playerCurrentTorso = spr_player_rifle_melee; //changes torso to handgun reload animation
+		playerLastTorso = spr_player_rifle_walk; //preserves previous torso
 
 		//create object to use for hit check
 		if (fireWeapon = 1) {

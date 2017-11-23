@@ -6,7 +6,8 @@
     "children": [
         "c73ea6ca-befd-4361-8486-dc4c0a325a1f",
         "c83fb665-c803-4ee6-87ee-0c1ff985c403",
-        "e9beae54-9861-4cba-9b81-b1093837770f"
+        "e9beae54-9861-4cba-9b81-b1093837770f",
+        "a343b0b7-7fe1-43bb-b3f8-a7897f883810"
     ],
     "filterType": "GMSprite",
     "folderName": "Rifle",

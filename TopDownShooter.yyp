@@ -1239,6 +1239,14 @@
             }
         },
         {
+            "Key": "a343b0b7-7fe1-43bb-b3f8-a7897f883810",
+            "Value": {
+                "id": "2f7fa882-ba56-40b5-bf39-2610e01b3a8f",
+                "resourcePath": "sprites\\spr_player_rifle_melee\\spr_player_rifle_melee.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "a3491c2a-a023-4c1b-94af-dcf099d03e9d",
             "Value": {
                 "id": "eebb5330-6941-467b-a0c5-f4ef858fe0eb",
@@ -1652,6 +1660,14 @@
                 "id": "9c5a169c-9af3-4bef-9a7c-57e48bc6f146",
                 "resourcePath": "tilesets\\tile_walls\\tile_walls.yy",
                 "resourceType": "GMTileSet"
+            }
+        },
+        {
+            "Key": "e062ef8a-816a-47ff-9877-fb114876c5bc",
+            "Value": {
+                "id": "ed27f635-c3ac-4413-a205-58a78654689a",
+                "resourcePath": "sprites\\spr_rifle_ammo_gui\\spr_rifle_ammo_gui.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

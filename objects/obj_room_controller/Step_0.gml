@@ -9,7 +9,7 @@ else if (instance_exists(obj_player)){
 
 if (gameActive = 1) && (!instance_exists(obj_player)) && (!instance_exists(obj_game_over)) && (win = 0) {
 	instance_create_layer(0,0,"UI",obj_game_over);
-	instance_create_layer(960,600, "UI", obj_enter_score);
+	instance_create_layer(0,0, "UI", obj_enter_score);
 }
 
 if (keyboard_check_pressed(vk_backspace)) room_restart();

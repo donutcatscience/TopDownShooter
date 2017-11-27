@@ -15,6 +15,10 @@ meleeSpawn_x = 50; //sets cords for melee collision box
 meleeSpawn_y = 35;
 
 if(instance_exists(obj_player)) {
+	if (inputShoot) && (currentClip <= 0) && (currentReload = 0) { //empty clip sound
+		audio_play_sound(snd_emptyClip,3,false);
+		inputReload = 1;
+	}
 
 	//handle melee attacking
 	if (inputMelee) && (currentReload = 0) && (fireWeapon = 0) { //checks for reload pressed
@@ -48,7 +52,7 @@ if(instance_exists(obj_player)) {
 	}
 		
 	//handle reloading
-	if (inputReload) { //checks for reload pressed
+	if (inputReload) && (currentClip < 8) { //checks for reload pressed { //checks for reload pressed
 		torsoFrame = 0; //resets the torso frame back to 0 so that it doesnt get start/stop at odd places
 		currentTempTorso = ((clipSize - currentClip) * 20); //sets the number of frames before going back to walk torso
 		currentReload = clipSize - currentClip; //locks character into reload animation
@@ -86,9 +90,6 @@ if(instance_exists(obj_player)) {
 		inputReload = 0;
 		currentReload = 0;
 		playerCurrentTorso = spr_player_shotgun_walk;
-	}
-	if (inputShoot) && (currentClip <= 0) && (currentReload = 0) { //empty clip sound
-		audio_play_sound(snd_emptyClip,3,false);
 	}
 }
 

@@ -16,6 +16,11 @@ meleeSpawn_x = 50; //sets cords for melee collision box
 meleeSpawn_y = 35;
 
 if(instance_exists(obj_player)) {
+	
+	if (inputShoot) && (currentClip <= 0) && (currentReload = 0) { //empty clip sound
+		audio_play_sound(snd_emptyClip,3,false);
+		inputReload = 1;
+	}
 
 	//handle melee attacking
 	if (inputMelee) && (currentReload = 0) && (fireWeapon = 0) { //checks for reload pressed
@@ -71,9 +76,6 @@ if(instance_exists(obj_player)) {
 			playerCurrentTorso = spr_player_handgun_shoot;
 			playerLastTorso = spr_player_handgun_walk;
 		}
-	}
-	if (inputShoot) && (currentClip <= 0) && (currentReload = 0) { //empty clip sound
-		audio_play_sound(snd_emptyClip,3,false);
 	}
 }
 

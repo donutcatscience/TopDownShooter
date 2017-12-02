@@ -21,15 +21,31 @@ maxHealth = 100;
 playerKeys = 0;
 
 //gun variables
+//gun clip sizes
+handgun_clip_size = 12;
+shotgun_clip_size = 8;
+
+//gun damages
+handgun_bullet_damage = 20;
+shotgun_bullet_damage = 45;
+
 fireWeapon = 0;
 currentReload = 0;
 reloadSpeed = 0;
-handgun_bullets_remaining = 12;
-shotgun_bullets_remaining = 8;
+
+handgun_bullets_remaining = handgun_clip_size;
+shotgun_bullets_remaining = shotgun_clip_size;
+
+//gun damages
+
+
+
 rifle_bullets_remaining = 2;
 currentClip = 0;
 bulletSpawn_x = 0;
 bulletSpawn_y = 0;
+
+
 
 //action switch states
 playerCurrentFeet = spr_player_feet_walk;

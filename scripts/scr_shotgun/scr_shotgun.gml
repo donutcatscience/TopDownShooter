@@ -3,9 +3,9 @@ scr_getInputs();
 
 //set shotgun variables 
 bulletSpeed = 50;
-clipSize = 8; //max clip size
+clipSize = shotgun_clip_size; //max clip size
 currentClip = shotgun_bullets_remaining;
-bulletDamage = 45;
+bulletDamage = shotgun_bullet_damage;
 bulletSpawn_x = 55; //sets cords for bullet to leave muzzle
 bulletSpawn_y = 18;
 

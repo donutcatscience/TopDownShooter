@@ -24,3 +24,17 @@
 //2500 mind control + 3 zombies
 //5000 shotfle (shot gun rifle)
 //10000 why are you still playing? shotful increased zombies perieced.
+
+//Might be able to use a bitmask to improve performance if necessary
+
+if(killCounter >=5 && !bHandgunDoubleDamage ){
+	bHandgunDoubleDamage = true
+	obj_player.handgun_bullet_damage = 1000;
+}
+else if(killCounter >= 15 && !bShotgunUnlocked){
+	bShotgunUnlocked = true;	
+}
+else if(killCounter >= 20 && !bHandGunDoubleClipSize){
+	bHandGunDoubleClipSize = true;
+	obj_player.handgun_clip_size = 24;
+}

@@ -19,25 +19,50 @@ inputMelee = mouse_check_button_pressed(mb_right);
 
 
 //checks for weapon swapping and state changing
-if (inputKnife = true) && (currentReload = 0) { //change inputKnife = 1?
-	playerCurrentTorso = spr_player_knife_walk;
-	if (currentState != player_state.knife) audio_play_sound(snd_changeWeapon,3,false);
-	currentState = player_state.knife;
-};
-if (inputHandgun = true) && (currentReload = 0) {
-	playerCurrentTorso = spr_player_handgun_walk;
-	if (currentState != player_state.handgun) audio_play_sound(snd_changeWeapon,3,false);
-	currentState = player_state.handgun;
-};
-if (inputShotgun = true) && (currentReload = 0) {
-	playerCurrentTorso = spr_player_shotgun_walk;
-	if (currentState != player_state.shotgun) audio_play_sound(snd_changeWeapon,3,false);
-	currentState = player_state.shotgun;
-};
-if (inputRifle = true) && (currentReload = 0) {
-	playerCurrentTorso = spr_player_rifle_walk;
-	if (currentState != player_state.rifle) audio_play_sound(snd_changeWeapon,3,false);
-	currentState = player_state.rifle;
-};
+if(!instance_exists(obj_endless_game_controller)){
+	if (inputKnife = true) && (currentReload = 0) { //change inputKnife = 1?
+		playerCurrentTorso = spr_player_knife_walk;
+		if (currentState != player_state.knife) audio_play_sound(snd_changeWeapon,3,false);
+		currentState = player_state.knife;
+	};
+	if (inputHandgun = true) && (currentReload = 0) {
+		playerCurrentTorso = spr_player_handgun_walk;
+		if (currentState != player_state.handgun) audio_play_sound(snd_changeWeapon,3,false);
+		currentState = player_state.handgun;
+	};
+	if (inputShotgun = true) && (currentReload = 0) {
+		playerCurrentTorso = spr_player_shotgun_walk;
+		if (currentState != player_state.shotgun) audio_play_sound(snd_changeWeapon,3,false);
+		currentState = player_state.shotgun;
+	};
+	if (inputRifle = true) && (currentReload = 0) {
+		playerCurrentTorso = spr_player_rifle_walk;
+		if (currentState != player_state.rifle) audio_play_sound(snd_changeWeapon,3,false);
+		currentState = player_state.rifle;
+	};
+}
+else{
+	if (inputKnife = true) && (currentReload = 0) { //change inputKnife = 1?
+		playerCurrentTorso = spr_player_knife_walk;
+		if (currentState != player_state.knife) audio_play_sound(snd_changeWeapon,3,false);
+		currentState = player_state.knife;
+	};
+	if (inputHandgun = true) && (currentReload = 0) {
+		playerCurrentTorso = spr_player_handgun_walk;
+		if (currentState != player_state.handgun) audio_play_sound(snd_changeWeapon,3,false);
+		currentState = player_state.handgun;
+	};
+	if (inputShotgun = true) && (currentReload = 0) && (obj_endless_game_controller.bShotgunUnlocked) {
+		playerCurrentTorso = spr_player_shotgun_walk;
+		if (currentState != player_state.shotgun) audio_play_sound(snd_changeWeapon,3,false);
+		currentState = player_state.shotgun;
+	};
+	if (inputRifle = true) && (currentReload = 0) && (obj_endless_game_controller.bRifleUnlocked) {
+		playerCurrentTorso = spr_player_rifle_walk;
+		if (currentState != player_state.rifle) audio_play_sound(snd_changeWeapon,3,false);
+		currentState = player_state.rifle;
+	};	
+}
+
 
 scr_collisionAndMove();

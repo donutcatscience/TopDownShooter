@@ -16,8 +16,8 @@ if (instance_exists(obj_player)) {
 		instance_create_layer(randomSpawnX,randomSpawnY,"Instances",obj_zombie_basic);
 	
 	//spawns broken wood and wood blood
-	var bloodX =(x + (random_range(5,15)));
-	var bloodY =(y + (random_range(5,15)));
+	var bloodX =(x + (random_range(-100,100)));
+	var bloodY =(y + (random_range(-100,100)));
 	instance_create_layer(bloodX,bloodY,"Blood",obj_brokenWoodSplatter);
 }
 

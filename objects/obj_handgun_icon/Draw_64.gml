@@ -9,13 +9,17 @@ if (instance_exists(obj_player)) {
 	//draw shotgun bullets remaining
 	draw_sprite_ext(spr_shotgun_ammo_gui,0,105,40,1,1,0,c_white,1);
 	draw_text(130,35,obj_player.shotgun_bullets_remaining);
+	
+	//draw rifle bullets remaining
+	draw_sprite_ext(spr_rifle_ammo_gui,0,205,40,0.5,0.5,0,c_white,1);
+	draw_text(225,35,obj_player.rifle_bullets_remaining);
 
 	//draw keys collected
-	draw_sprite_ext(spr_keys,0,205,40,.8,.8,0,c_white,1);
-	draw_text(255,35,string(obj_player.playerKeys) + "/" + string(obj_room_controller.max_keys));
+	draw_sprite_ext(spr_keys,0,305,40,.8,.8,0,c_white,1);
+	draw_text(355,35,string(obj_player.playerKeys) + "/" + string(obj_room_controller.max_keys));
 	
 	//draw score
-	draw_text(355,35,"Score: " + string(score));
+	draw_text(455,35,"Score: " + string(score));
 	
 	//for game testing
 	//var zombieCount = instance_number(obj_zombie_basic);

@@ -7,6 +7,7 @@
         "051d6a2d-bfa7-40e4-ad0c-efb3343d49c6",
         "75fb5c78-d9c8-4750-aa03-d6f4745ee142",
         "9eb5fc7c-9675-4c9a-bcf5-6e74b68b817f",
+        "e062ef8a-816a-47ff-9877-fb114876c5bc",
         "d76bf3c3-12ce-4187-b5a9-ffbe6a5e453e",
         "9c1864d0-ccea-4577-90c8-f7cd71dd4cbb",
         "8c118e3f-4a9d-4022-a729-9b3b3cb63be5",
@@ -18,7 +19,8 @@
         "a7588990-06a5-49be-a262-410bece1698f",
         "f0525a28-f85d-4338-8234-8c6c65b56e49",
         "2938e463-037f-4775-b2c2-80abd5abb49d",
-        "d0496ccf-bebd-4c4a-950a-638715adeed9"
+        "d0496ccf-bebd-4c4a-950a-638715adeed9",
+        "99630d94-277e-4471-b492-23ae7e9781ce"
     ],
     "filterType": "GMSprite",
     "folderName": "UI\/UX",

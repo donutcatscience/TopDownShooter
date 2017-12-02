@@ -26,8 +26,11 @@
 //10000 why are you still playing? shotful increased zombies perieced.
 
 //Might be able to use a bitmask to improve performance if necessary
-if(!instance_exists(obj_zombie_endless_test)){
-		currentwave++;
+if(!instance_exists(obj_zombie_endless_test) && !waveStarted){
+	currentWave++;
+	waveStarted = true;
+	numZombiesSpawned = 0;
+	alarm[1] = 1;
 }
 
 

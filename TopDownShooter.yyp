@@ -1031,6 +1031,14 @@
             }
         },
         {
+            "Key": "8b05d423-3e73-4d4c-9a84-8e5fa2003787",
+            "Value": {
+                "id": "61431c64-895e-49f0-b539-543c1e9fba19",
+                "resourcePath": "objects\\obj_zombieSpawner_endless\\obj_zombieSpawner_endless.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "8c118e3f-4a9d-4022-a729-9b3b3cb63be5",
             "Value": {
                 "id": "c24799bf-d54e-4c28-acbb-1e840a0d045d",
@@ -1267,6 +1275,14 @@
             "Value": {
                 "id": "1f8fe97f-9aed-41c9-803b-d16465a4953f",
                 "resourcePath": "objects\\obj_enter_score\\obj_enter_score.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "a3e4daa5-0eea-4087-a3fd-4c106ecc6de4",
+            "Value": {
+                "id": "ae598bb8-7b5f-4f0b-a019-0f101241532d",
+                "resourcePath": "objects\\obj_endless_wall\\obj_endless_wall.yy",
                 "resourceType": "GMObject"
             }
         },

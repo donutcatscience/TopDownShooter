@@ -5,3 +5,4 @@ bHandgunDoubleDamage	= false;
 bShotgunUnlocked = false;
 bRifleUnlocked = false;
 bHandGunDoubleClipSize = false;	
+currentwave = 0;

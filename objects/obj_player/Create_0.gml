@@ -24,10 +24,15 @@ playerKeys = 0;
 //gun clip sizes
 handgun_clip_size = 12;
 shotgun_clip_size = 8;
-
+rifle_clip_size = 2;
 //gun damages
 handgun_bullet_damage = 20;
 shotgun_bullet_damage = 45;
+rifle_bullet_damage = 30;
+//other
+shotgun_bullets_out_of_barrel = 12;
+zombies_able_to_pierce = 2;
+
 
 fireWeapon = 0;
 currentReload = 0;
@@ -35,12 +40,12 @@ reloadSpeed = 0;
 
 handgun_bullets_remaining = handgun_clip_size;
 shotgun_bullets_remaining = shotgun_clip_size;
-
-//gun damages
-
+rifle_bullets_remaining = rifle_clip_size;
 
 
-rifle_bullets_remaining = 2;
+
+
+
 currentClip = 0;
 bulletSpawn_x = 0;
 bulletSpawn_y = 0;

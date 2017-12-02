@@ -32,17 +32,38 @@ if(!instance_exists(obj_zombie_endless_test) && !waveStarted){
 	numZombiesSpawned = 0;
 	alarm[1] = 1;
 }
+if(killCounter > highestCombo){
+	highestCombo = killCounter;
+}
 
-
-
+//a bit mask would probably be way more effcient but dont got time for that.
 if(killCounter >=5 && !bHandgunDoubleDamage ){
 	bHandgunDoubleDamage = true
-	obj_player.handgun_bullet_damage = 1000;
+	obj_player.handgun_bullet_damage =  handgun_base_damage * 2;
 }
 else if(killCounter >= 15 && !bShotgunUnlocked){
 	bShotgunUnlocked = true;	
 }
 else if(killCounter >= 20 && !bHandGunDoubleClipSize){
 	bHandGunDoubleClipSize = true;
-	obj_player.handgun_clip_size = 24;
+	obj_player.handgun_clip_size = handgun_base_clip * 2;
+}
+else if(killCounter >= 30 && !bRifleUnlocked){
+	bRifleUnlocked = true;
+}
+else if(killCounter >= 50 && !bShotgunDoubleClipSize){
+	bShotgunDoubleClipSize = true;
+	obj_player.shotgun_clip_size = shotgun_base_clip * 2; 
+}
+else if(killCounter >= 75 && !bRifleDoubleClipSize){
+	bRifleDoubleClipSize = true;
+	obj_player.rifle_clip_size = rifle_base_clip * 2;
+}
+else if(killCounter >= 100 && !bRifleThreePerieced){
+	bRifleThreePerieced = true;
+	obj_player.zombies_able_to_pierce = 3;
+}
+else if(killCounter >= 100 && !bShotgunMoreBullets1){
+	bShotgunMoreBullets1 = true;
+	obj_player.shotgun_bullets_out_of_barrel = 16;
 }

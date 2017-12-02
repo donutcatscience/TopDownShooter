@@ -24,8 +24,10 @@ case zombie_state.wonder : scr_enemy_wonder(); break;
 ++meleeTimer;
 
 ////check to see # of zombies pierced with rifle
-if (global.zombies_pierced == 2)
-{
-instance_destroy(obj_rifle_bullet);
-global.zombies_pierced = 0;
+if(instance_exists(obj_player)){
+	if (global.zombies_pierced == obj_player.zombies_able_to_pierce)
+	{
+		instance_destroy(obj_rifle_bullet);
+		global.zombies_pierced = 0;
+	}
 }

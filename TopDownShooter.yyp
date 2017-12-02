@@ -823,6 +823,14 @@
             }
         },
         {
+            "Key": "7251e2c6-05a1-40af-a9f8-e11695bcb07c",
+            "Value": {
+                "id": "7c38285d-41cf-4bb1-aedd-c9b71ec270c0",
+                "resourcePath": "objects\\obj_endless_mode_highscores\\obj_endless_mode_highscores.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "726f8603-4eeb-488f-a582-b0882e57bf4f",
             "Value": {
                 "id": "11d3f03b-aded-453c-8442-e30a0a56633c",

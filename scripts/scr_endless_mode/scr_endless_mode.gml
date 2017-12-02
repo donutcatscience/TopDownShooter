@@ -7,7 +7,7 @@ obj_room_controller.max_keys = 0;
 obj_room_controller.gameActive = 1;
 obj_room_controller.win = 0;
 
-instance_create_layer(221,216,"Instances",obj_player);
+instance_create_layer(1110,690,"Instances",obj_player);
 instance_create_layer(0,0,"UI",obj_handgun_icon);
 
 instance_create_layer(1792,608,"Instances",obj_exit_wall);

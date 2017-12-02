@@ -3,10 +3,10 @@ scr_getInputs();
 
 //set handgun variables 
 bulletSpeed = 90;
-clipSize = 2; //max clip size
+clipSize = rifle_clip_size; //max clip size
 currentClip = rifle_bullets_remaining;
 reloadSpeed = 10; //haven't implemented reload speed yet
-bulletDamage = 20;
+bulletDamage = rifle_bullet_damage;
 bulletSpawn_x = 20; //sets cords for bullet to leave muzzle
 bulletSpawn_y = 25;
 

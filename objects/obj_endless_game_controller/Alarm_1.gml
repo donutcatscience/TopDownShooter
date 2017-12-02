@@ -18,9 +18,29 @@ for(var i = 0; i < numZombiesToSpawn; i ++){
 	numZombiesSpawned++;
 }
 
-if(currentWave % 10 == 0){
-	for(var i = 0; i < currentWave / 10; i++){
-		//instance_create_layer(700, 500, "Instances", obj_zombieSpawner_endless);	
+if(currentWave % 5 == 0){
+	for(var i = 0; i < currentWave / 5; i++){
+			var randX = random_range(300, 1920);
+			var randY = random_range(300, 1080);
+		while(place_meeting(randX, randY, obj_zombieSpawner_endless)){
+			 randX = random_range(300, 1920);
+			 randY = random_range(300, 1080);
+		}
+		instance_create_layer(randX, randY, "Instances", obj_zombieSpawner_endless);	
 	}
+}
+
+if(currentWave % 10 == 0){
+	//spawn in lighting. Or increase zombie health/damage.
+}
+else{
+	//if lighting obj exists remove it.	
+}
+
+if(currentWave % 50 == 0){
+		//spawn in lighting if we didnt do it before?
+}
+else{
+	//remove lighting if we want to.	
 }
 waveStarted = false;

@@ -1,6 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 obj_display_high_scores.bGetEndlessHighScores = true;
+bSearching = false;
 ds_list_clear(obj_display_high_scores.highscores);
 ds_list_clear(highscores);
 bFirstLoad = false;

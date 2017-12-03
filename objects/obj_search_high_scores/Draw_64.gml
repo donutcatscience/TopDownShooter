@@ -1,8 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
-if(!bSearching){
-	if(!bFirstLoad){
-		if(!bShowingNormal){
+if(obj_endless_mode_highscores.bSearching){
+	if(!obj_endless_mode_highscores.bShowingNormal){
 			draw_set_halign(fa_left);
 			draw_text(x + xoffset,y + yoffset, "Name");
 			draw_text(x + xoffset + 500, y + yoffset, "Score");
@@ -78,6 +77,5 @@ if(!bSearching){
 				draw_set_halign(fa_center);
 				draw_text(x, y - 60, "Unable to Retrieve Highscores or No Highscores Listed");
 			}	
-		}
-	}
+		}	
 }

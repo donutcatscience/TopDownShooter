@@ -8,7 +8,11 @@ if(!bGetEndlessHighScores){
 	if(!highScoresTimeOut){
 		if(!ds_list_empty(self.highscores)){
 			alarm[0] = -1;
-			for(i = 0; i < 10 || i < ds_list_size(highscores); i+=1){
+			var limit = 10;
+			if(ds_list_size(highscores) < 10){
+				limit = ds_list_size(highscores);	
+			}
+			for(i = 0; i < limit; i+=1){
 				var mapAtIndex = self.highscores[| i];
 				var playerName = ds_map_find_value(mapAtIndex, "PlayerName");
 				var playerScore = ds_map_find_value(mapAtIndex, "PlayerScore");

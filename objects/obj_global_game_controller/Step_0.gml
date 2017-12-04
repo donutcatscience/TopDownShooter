@@ -16,7 +16,7 @@ gamepad_set_axis_deadzone(0, 0.10);
 
 
 if(room_get_name(room) != "rm_main_menu" && room_get_name(room) != "rm_high_scores" && room_get_name(room)!= "rm_level_selector"){
-	if(os_is_paused()){
+	if(os_is_paused() && !isPaused){
 		room_persistent = true;
 		isPaused = true;
 		prevRoom = room;

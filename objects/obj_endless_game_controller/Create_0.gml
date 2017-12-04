@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-killCounter = 5;
+killCounter = 0;
 
 //base damages
 handgun_base_damage = 20;

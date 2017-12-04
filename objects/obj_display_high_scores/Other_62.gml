@@ -1,17 +1,23 @@
 /// @description Insert description here
 // You can write your code in this editor
 ds_list_clear(highscores);
-var json = async_load[? "result"];
+if (ds_map_find_value(async_load, "id")){
+	if ds_map_find_value(async_load, "status") == 0
+    {
+		var json = async_load[? "result"];
 
-//convert json
-var map34 = json_decode(json);
-//GET CODE
-if(map34 == -1) ds_list_add(highscores, "Unable to retrieve highscores at this time");
-
-if(ds_map_exists(map34, "default")){
-	highscores = map34[? "default"];
+	//convert json
+		var map34 = json_decode(json);
+		
+		if(ds_map_exists(map34, "default")){
+			self.highscores = map34[? "default"];
+		}
+		else{
+			ds_list_add(0, "Unable to get highscores");
+		}
+    }
+   else
+      {
+			ds_list_add(highscores, "Unable to retrieve/add to highscores at this time");
+      }
 }
-else{
-	ds_list_add(0, "Unable to get highscores");
-}
-//END GET CODE

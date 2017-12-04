@@ -1,7 +1,11 @@
 /// @description Controls Sprite Animation
-
-var playerAngle = point_direction(x,y,mouse_x,mouse_y);
-
+if(gamepad_is_connected(0)){
+	var playerAngle = point_direction(0,0,inputHoriz,inputVert);
+	show_debug_message("player angle: " + string(playerAngle));
+}
+else{
+	var playerAngle = point_direction(x,y,mouse_x,mouse_y);
+}
 //manage left/right animation change
 if (moveX = 0 && moveY = 0) { //player not moving
 	image_speed = 0; 

@@ -20,14 +20,3 @@ if (room_get_name(room) = "rm_prototype05") {
 }
 
 else room_goto_next();
-
-//if (global.level = 1) {
-//	show_debug_message("Going to level 2");
-//	room_goto(rm_prototype02);
-//	scr_prototype02();
-//}
-
-//if (global.level = 2) {
-//	room_goto(rm_prototype03);
-//	scr_prototype03();
-//}

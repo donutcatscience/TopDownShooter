@@ -1,5 +1,9 @@
 /// @description Set Variables
 //size modifier
+
+inputHoriz = 0;
+inputVert = 0;
+
 if(room_get_name(room) == "rm_prototype_endless_mode"){
 	sizeModifier = .5;
 }

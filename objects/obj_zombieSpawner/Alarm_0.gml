@@ -6,8 +6,8 @@ if (instance_exists(obj_player) && (zombieCount <= 50)) {
 	do { //makes sure zombies aren't spawning in occupied space
 		var randomSpawnX = (x+ (choose(-1,1) * (10 + (random_range(10,15)))));
 		var randomSpawnY = (y + (choose(-1,1) * (10+ (random_range(10,15)))));
-		show_debug_message(randomSpawnX);
-		show_debug_message(randomSpawnY);
+		//show_debug_message(randomSpawnX);
+		//show_debug_message(randomSpawnY);
 	}
 	until (place_free(randomSpawnX,randomSpawnY));
 		instance_create_layer(randomSpawnX,randomSpawnY,"Instances",obj_zombie_basic);

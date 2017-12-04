@@ -10,11 +10,13 @@ if(bShowingNormal){ //get endless highscores
 	request = http_request("https://makinggamesdb-d8fb.restdb.io/rest/topdownshooterendlessmode?sort=PlayerScore&dir=-1", "GET", map1, "");
 	xoffset = 250;
 	//swap sprite to show story mode
+	sprite_index = spr_endless_scores;
 }
 else{ //get normal highscores
 	bShowingNormal = true;
 	request = http_request("https://makinggamesdb-d8fb.restdb.io/rest/topdownshooter?sort=PlayerScore&dir=-1", "GET", map1, "");
 	xoffset = 500;
 	//swap sprite to show endless mode
+	sprite_index = spr_story_scores;
 }
 

@@ -4,6 +4,7 @@ highscores = ds_list_create();
 yoffset = 60;
 ystarttext = 60;
 xoffset = 250;
+ysetfun = 475;
 nameToSearch = "";
 highScoresTimeOut = false;
 isAlarmSet = false;

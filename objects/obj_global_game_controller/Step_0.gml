@@ -12,9 +12,7 @@ else if (instance_exists(obj_player)){
 	window_set_cursor(cr_none);
 }
 
-gamepad_is_connected(0){
-	gamepad_set_axis_deadzone(0, 0.10);
-}
+gamepad_set_axis_deadzone(0, 0.10);
 
 
 if(room_get_name(room) != "rm_main_menu" && room_get_name(room) != "rm_high_scores" && room_get_name(room)!= "rm_level_selector"){

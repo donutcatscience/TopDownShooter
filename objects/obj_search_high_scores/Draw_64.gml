@@ -3,10 +3,10 @@
 if(obj_endless_mode_highscores.bSearching){
 	if(!obj_endless_mode_highscores.bShowingNormal){
 			draw_set_halign(fa_left);
-			draw_text(x + xoffset,y + yoffset, "Name");
-			draw_text(x + xoffset + 500, y + yoffset, "Score");
-			draw_text(x + xoffset + 750,y + yoffset, "Wave");
-			draw_text(x + xoffset + 1000, y + yoffset, "Combo");
+			draw_text(x + xoffset,y + yoffset - ysetfun, "Name");
+			draw_text(x + xoffset + 500, y + yoffset - ysetfun, "Score");
+			draw_text(x + xoffset + 750,y + yoffset - ysetfun, "Wave");
+			draw_text(x + xoffset + 1000, y + yoffset - ysetfun, "Combo");
 
 			if(!highScoresTimeOut){
 				if(!ds_list_empty(self.highscores)){
@@ -22,10 +22,10 @@ if(obj_endless_mode_highscores.bSearching){
 						var playerScore = ds_map_find_value(mapAtIndex, "PlayerScore");
 						var playerWave = ds_map_find_value(mapAtIndex, "WaveReached");
 						var playerCombo = ds_map_find_value(mapAtIndex, "ComboHighScore");
-						draw_text(x + xoffset, y + yoffset, string(playerName));
-						draw_text(x + xoffset + 500, y + yoffset, string(playerScore));
-						draw_text(x + xoffset + 750, y + yoffset, string(playerWave));
-						draw_text(x + xoffset + 1000, y + yoffset, string(playerCombo));
+						draw_text(x + xoffset, y + yoffset - ysetfun, string(playerName));
+						draw_text(x + xoffset + 500, y + yoffset - ysetfun, string(playerScore));
+						draw_text(x + xoffset + 750, y + yoffset - ysetfun, string(playerWave));
+						draw_text(x + xoffset + 1000, y + yoffset - ysetfun, string(playerCombo));
 					}
 					yoffset = 60;
 				}
@@ -45,8 +45,8 @@ if(obj_endless_mode_highscores.bSearching){
 		}
 		else{
 			draw_set_halign(fa_left);
-			draw_text(x + xoffset,y + yoffset, "Name");
-			draw_text(x + xoffset + 500, y + yoffset, "Score");
+			draw_text(x + xoffset,y + yoffset - ysetfun, "Name");
+			draw_text(x + xoffset + 500, y + yoffset - ysetfun, "Score");
 			if(!highScoresTimeOut){
 				if(!ds_list_empty(self.highscores)){
 					var limit = 10;
@@ -59,8 +59,8 @@ if(obj_endless_mode_highscores.bSearching){
 						var mapAtIndex = self.highscores[| i];
 						var playerName = ds_map_find_value(mapAtIndex, "PlayerName");
 						var playerScore = ds_map_find_value(mapAtIndex, "PlayerScore");
-						draw_text(x + xoffset, y + yoffset, string(playerName));
-						draw_text(x + xoffset + 500, y + yoffset, string(playerScore));
+						draw_text(x + xoffset, y + yoffset - ysetfun, string(playerName));
+						draw_text(x + xoffset + 500, y + yoffset - ysetfun, string(playerScore));
 					}
 					yoffset = 60;
 				}

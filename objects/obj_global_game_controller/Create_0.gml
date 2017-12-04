@@ -5,3 +5,4 @@ prevRoom = noone;
 isPaused = false;
 isNewGame = false;
 //scr_splash_screen();
+gamepad_set_axis_deadzone(0, 0.10);

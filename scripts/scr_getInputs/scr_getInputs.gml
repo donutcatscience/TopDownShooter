@@ -6,11 +6,20 @@ if(gamepad_is_connected(0)){
 	//show_debug_message("vert value" + string(gamepad_axis_value(0, gp_axislh)));
 	var currentHoriz = gamepad_axis_value(0, gp_axisrh);
 	var currentVert = gamepad_axis_value(0, gp_axisrv);
-	if(currentHoriz != 0 && currentVert != 0){
+	deadzone_limit = .10;
+	//if(currentHoriz != 0 && currentVert != 0){
+	//	obj_player.inputHoriz = currentHoriz;
+	//	obj_player.inputVert = currentVert;
+	//}
+	if currentVert >= -deadzone_limit && currentVert<= deadzone_limit && currentHoriz >= -deadzone_limit && currentHoriz <= deadzone_limit
+	{
+		image_angle = direction;
+	}
+	else
+	{
 		obj_player.inputHoriz = currentHoriz;
 		obj_player.inputVert = currentVert;
 	}
-
 	
 	inputLeft = round(gamepad_axis_value(0, gp_axislh)) * -1;
 	inputRight= round(gamepad_axis_value(0, gp_axislh));

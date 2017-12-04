@@ -41,37 +41,45 @@ if(killCounter >=5 && !bHandgunDoubleDamage ){
 	bHandgunDoubleDamage = true
 	obj_player.handgun_bullet_damage =  handgun_base_damage * 2;
 	currentMessage = "Handgun Double Damage\nUnlocked";
+	audio_play_sound(snd_key_collect, 1, 0);
 }
 else if(killCounter >= 15 && !bShotgunUnlocked){
 	bShotgunUnlocked = true;
 	currentMessage = "Shotgun\nUnlocked"
+	audio_play_sound(snd_key_collect, 1, 0);
 }
 else if(killCounter >= 20 && !bHandGunDoubleClipSize){
 	bHandGunDoubleClipSize = true;
 	obj_player.handgun_clip_size = handgun_base_clip * 2;
 	currentMessage = "Handgun Double Clip\nUnlocked";
+	audio_play_sound(snd_key_collect, 1, 0);
 }
 else if(killCounter >= 30 && !bRifleUnlocked){
 	bRifleUnlocked = true;
 	currentMessage = "Rifle\nUnlocked";
+	audio_play_sound(snd_key_collect, 1, 0);
 }
 else if(killCounter >= 50 && !bShotgunDoubleClipSize){
 	bShotgunDoubleClipSize = true;
 	obj_player.shotgun_clip_size = shotgun_base_clip * 2;
 	currentMessage = "Shotgun Double Clip\nUnlocked";
+	audio_play_sound(snd_key_collect, 1, 0);
 }
 else if(killCounter >= 75 && !bRifleDoubleClipSize){
 	bRifleDoubleClipSize = true;
 	obj_player.rifle_clip_size = rifle_base_clip * 2;
 	currentMessage = "Rifle Double Clip\nUnlocked";
+	audio_play_sound(snd_key_collect, 1, 0);
 }
 else if(killCounter >= 100 && !bRifleThreePerieced){
 	bRifleThreePerieced = true;
 	obj_player.zombies_able_to_pierce = 3;
 	currentMessage = "Rifle More Zombies Pierced\nUnlocked"
+	audio_play_sound(snd_key_collect, 1, 0);
 }
 else if(killCounter >= 100 && !bShotgunMoreBullets1){
 	bShotgunMoreBullets1 = true;
 	obj_player.shotgun_bullets_out_of_barrel = 16;
 	currentMessage = "Shotgun More Bullets\nUnlocked";
+	audio_play_sound(snd_key_collect, 1, 0);
 }

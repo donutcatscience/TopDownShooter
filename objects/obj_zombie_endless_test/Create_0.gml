@@ -6,8 +6,8 @@ sizeModifier = 1.5;
 currentTorso = spr_zombie_walk;
 
 //zombie stats
-maxHealth = 100;
-currentHealth = irandom_range(55,95);
+maxHealth = obj_endless_game_controller.zombieMaxHealth;
+currentHealth = maxHealth;
 meleeTimer = 30;
 meleeDamage = 10;
 

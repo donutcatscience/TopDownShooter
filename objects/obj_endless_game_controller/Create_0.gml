@@ -45,3 +45,7 @@ numZombiesSpawned = 0;
 comboSpeedDropper = 2;
 
 highestCombo = 0;
+
+zombieMaxHealth = 100;
+
+light = noone;

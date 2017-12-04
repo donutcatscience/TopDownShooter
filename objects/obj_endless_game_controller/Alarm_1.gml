@@ -11,9 +11,20 @@
 var numZombiesToSpawn = currentWave * 5;
 var numZombiesSpawned = 0;
 
+if(currentWave % 10 == 0){
+	//spawn in lighting. Or increase zombie health/damage.
+	zombieMaxHealth += 100;
+}
+else{
+	//if lighting obj exists remove it.	
+}
+
 for(var i = 0; i < numZombiesToSpawn; i ++){
 	var randNo = random_range(0,4);
-	instance_create_layer(random_range(spawningAreaX1[randNo], spawningAreaX2[randNo]), random_range(spawningAreaY1[randNo], spawningAreaY2[randNo]), "Instances", obj_zombie_endless_test);
+	created_zombie = instance_create_layer(random_range(spawningAreaX1[randNo], spawningAreaX2[randNo]), random_range(spawningAreaY1[randNo], spawningAreaY2[randNo]), "Instances", obj_zombie_endless_test);
+	if(currentWave > 20){
+			created_zombie.enemySpeed = random_range(1, currentWave / 5);
+	}
 	//instance_create_layer(random_range(0, 1920), random_range(0, 1080), "Instances", obj_zombie_endless_test);
 	numZombiesSpawned++;
 }
@@ -30,17 +41,16 @@ if(currentWave % 5 == 0){
 	}
 }
 
-if(currentWave % 10 == 0){
-	//spawn in lighting. Or increase zombie health/damage.
-}
-else{
-	//if lighting obj exists remove it.	
-}
 
-if(currentWave % 50 == 0){
+if(currentWave % 15 == 0){
 		//spawn in lighting if we didnt do it before?
+		light = instance_create_layer(x,y,"Lighting", obj_light);
 }
 else{
 	//remove lighting if we want to.	
+	if(light != noone){
+		instance_destroy(light);
+		light = noone;
+	}
 }
 waveStarted = false;

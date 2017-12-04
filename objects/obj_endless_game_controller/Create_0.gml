@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-killCounter = 0;
+killCounter = 5;
 
 //base damages
 handgun_base_damage = 20;
@@ -49,3 +49,12 @@ highestCombo = 0;
 zombieMaxHealth = 100;
 
 light = noone;
+
+unlockNeedDisplay = false;
+currentMessage = "";
+currentAlpha = 1;
+
+//For .5 scale
+unlockX = 200;
+unlockY = 300;
+//for .75 scale
